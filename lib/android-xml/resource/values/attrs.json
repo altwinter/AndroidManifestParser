@@ -1,0 +1,5340 @@
+{
+  "attrs": [
+    {
+      "name": "typeface",
+      "enums": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "sans",
+          "value": 1
+        },
+        {
+          "name": "serif",
+          "value": 2
+        },
+        {
+          "name": "monospace",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "textStyle",
+      "flags": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "bold",
+          "value": 1
+        },
+        {
+          "name": "italic",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "ellipsize",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "start",
+          "value": 1
+        },
+        {
+          "name": "middle",
+          "value": 2
+        },
+        {
+          "name": "end",
+          "value": 3
+        },
+        {
+          "name": "marquee",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "inputType",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "text",
+          "value": 1
+        },
+        {
+          "name": "textCapCharacters",
+          "value": 4097
+        },
+        {
+          "name": "textCapWords",
+          "value": 8193
+        },
+        {
+          "name": "textCapSentences",
+          "value": 16385
+        },
+        {
+          "name": "textAutoCorrect",
+          "value": 32769
+        },
+        {
+          "name": "textAutoComplete",
+          "value": 65537
+        },
+        {
+          "name": "textMultiLine",
+          "value": 131073
+        },
+        {
+          "name": "textImeMultiLine",
+          "value": 262145
+        },
+        {
+          "name": "textNoSuggestions",
+          "value": 524289
+        },
+        {
+          "name": "textEnableTextConversionSuggestions",
+          "value": 1048577
+        },
+        {
+          "name": "textUri",
+          "value": 17
+        },
+        {
+          "name": "textEmailAddress",
+          "value": 33
+        },
+        {
+          "name": "textEmailSubject",
+          "value": 49
+        },
+        {
+          "name": "textShortMessage",
+          "value": 65
+        },
+        {
+          "name": "textLongMessage",
+          "value": 81
+        },
+        {
+          "name": "textPersonName",
+          "value": 97
+        },
+        {
+          "name": "textPostalAddress",
+          "value": 113
+        },
+        {
+          "name": "textPassword",
+          "value": 129
+        },
+        {
+          "name": "textVisiblePassword",
+          "value": 145
+        },
+        {
+          "name": "textWebEditText",
+          "value": 161
+        },
+        {
+          "name": "textFilter",
+          "value": 177
+        },
+        {
+          "name": "textPhonetic",
+          "value": 193
+        },
+        {
+          "name": "textWebEmailAddress",
+          "value": 209
+        },
+        {
+          "name": "textWebPassword",
+          "value": 225
+        },
+        {
+          "name": "number",
+          "value": 2
+        },
+        {
+          "name": "numberSigned",
+          "value": 4098
+        },
+        {
+          "name": "numberDecimal",
+          "value": 8194
+        },
+        {
+          "name": "numberPassword",
+          "value": 18
+        },
+        {
+          "name": "phone",
+          "value": 3
+        },
+        {
+          "name": "datetime",
+          "value": 4
+        },
+        {
+          "name": "date",
+          "value": 20
+        },
+        {
+          "name": "time",
+          "value": 36
+        }
+      ]
+    },
+    {
+      "name": "imeOptions",
+      "flags": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "actionUnspecified",
+          "value": 0
+        },
+        {
+          "name": "actionNone",
+          "value": 1
+        },
+        {
+          "name": "actionGo",
+          "value": 2
+        },
+        {
+          "name": "actionSearch",
+          "value": 3
+        },
+        {
+          "name": "actionSend",
+          "value": 4
+        },
+        {
+          "name": "actionNext",
+          "value": 5
+        },
+        {
+          "name": "actionDone",
+          "value": 6
+        },
+        {
+          "name": "actionPrevious",
+          "value": 7
+        },
+        {
+          "name": "flagNoPersonalizedLearning",
+          "value": 16777216
+        },
+        {
+          "name": "flagNoFullscreen",
+          "value": 33554432
+        },
+        {
+          "name": "flagNavigatePrevious",
+          "value": 67108864
+        },
+        {
+          "name": "flagNavigateNext",
+          "value": 134217728
+        },
+        {
+          "name": "flagNoExtractUi",
+          "value": 268435456
+        },
+        {
+          "name": "flagNoAccessoryAction",
+          "value": 536870912
+        },
+        {
+          "name": "flagNoEnterAction",
+          "value": 1073741824
+        },
+        {
+          "name": "flagForceAscii",
+          "value": -2147483648
+        }
+      ]
+    },
+    {
+      "name": "gravity",
+      "flags": [
+        {
+          "name": "top",
+          "value": 48
+        },
+        {
+          "name": "bottom",
+          "value": 80
+        },
+        {
+          "name": "left",
+          "value": 3
+        },
+        {
+          "name": "right",
+          "value": 5
+        },
+        {
+          "name": "center_vertical",
+          "value": 16
+        },
+        {
+          "name": "fill_vertical",
+          "value": 112
+        },
+        {
+          "name": "center_horizontal",
+          "value": 1
+        },
+        {
+          "name": "fill_horizontal",
+          "value": 7
+        },
+        {
+          "name": "center",
+          "value": 17
+        },
+        {
+          "name": "fill",
+          "value": 119
+        },
+        {
+          "name": "clip_vertical",
+          "value": 128
+        },
+        {
+          "name": "clip_horizontal",
+          "value": 8
+        },
+        {
+          "name": "start",
+          "value": 8388611
+        },
+        {
+          "name": "end",
+          "value": 8388613
+        }
+      ]
+    },
+    {
+      "name": "autoLink",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "web",
+          "value": 1
+        },
+        {
+          "name": "email",
+          "value": 2
+        },
+        {
+          "name": "phone",
+          "value": 4
+        },
+        {
+          "name": "map",
+          "value": 8
+        },
+        {
+          "name": "all",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "name": "layout_gravity",
+      "flags": [
+        {
+          "name": "top",
+          "value": 48
+        },
+        {
+          "name": "bottom",
+          "value": 80
+        },
+        {
+          "name": "left",
+          "value": 3
+        },
+        {
+          "name": "right",
+          "value": 5
+        },
+        {
+          "name": "center_vertical",
+          "value": 16
+        },
+        {
+          "name": "fill_vertical",
+          "value": 112
+        },
+        {
+          "name": "center_horizontal",
+          "value": 1
+        },
+        {
+          "name": "fill_horizontal",
+          "value": 7
+        },
+        {
+          "name": "center",
+          "value": 17
+        },
+        {
+          "name": "fill",
+          "value": 119
+        },
+        {
+          "name": "clip_vertical",
+          "value": 128
+        },
+        {
+          "name": "clip_horizontal",
+          "value": 8
+        },
+        {
+          "name": "start",
+          "value": 8388611
+        },
+        {
+          "name": "end",
+          "value": 8388613
+        }
+      ]
+    },
+    {
+      "name": "orientation",
+      "enums": [
+        {
+          "name": "horizontal",
+          "value": 0
+        },
+        {
+          "name": "vertical",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "alignmentMode",
+      "enums": [
+        {
+          "name": "alignBounds",
+          "value": 0
+        },
+        {
+          "name": "alignMargins",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "keycode",
+      "enums": [
+        {
+          "name": "KEYCODE_UNKNOWN",
+          "value": 0
+        },
+        {
+          "name": "KEYCODE_SOFT_LEFT",
+          "value": 1
+        },
+        {
+          "name": "KEYCODE_SOFT_RIGHT",
+          "value": 2
+        },
+        {
+          "name": "KEYCODE_HOME",
+          "value": 3
+        },
+        {
+          "name": "KEYCODE_BACK",
+          "value": 4
+        },
+        {
+          "name": "KEYCODE_CALL",
+          "value": 5
+        },
+        {
+          "name": "KEYCODE_ENDCALL",
+          "value": 6
+        },
+        {
+          "name": "KEYCODE_0",
+          "value": 7
+        },
+        {
+          "name": "KEYCODE_1",
+          "value": 8
+        },
+        {
+          "name": "KEYCODE_2",
+          "value": 9
+        },
+        {
+          "name": "KEYCODE_3",
+          "value": 10
+        },
+        {
+          "name": "KEYCODE_4",
+          "value": 11
+        },
+        {
+          "name": "KEYCODE_5",
+          "value": 12
+        },
+        {
+          "name": "KEYCODE_6",
+          "value": 13
+        },
+        {
+          "name": "KEYCODE_7",
+          "value": 14
+        },
+        {
+          "name": "KEYCODE_8",
+          "value": 15
+        },
+        {
+          "name": "KEYCODE_9",
+          "value": 16
+        },
+        {
+          "name": "KEYCODE_STAR",
+          "value": 17
+        },
+        {
+          "name": "KEYCODE_POUND",
+          "value": 18
+        },
+        {
+          "name": "KEYCODE_DPAD_UP",
+          "value": 19
+        },
+        {
+          "name": "KEYCODE_DPAD_DOWN",
+          "value": 20
+        },
+        {
+          "name": "KEYCODE_DPAD_LEFT",
+          "value": 21
+        },
+        {
+          "name": "KEYCODE_DPAD_RIGHT",
+          "value": 22
+        },
+        {
+          "name": "KEYCODE_DPAD_CENTER",
+          "value": 23
+        },
+        {
+          "name": "KEYCODE_VOLUME_UP",
+          "value": 24
+        },
+        {
+          "name": "KEYCODE_VOLUME_DOWN",
+          "value": 25
+        },
+        {
+          "name": "KEYCODE_POWER",
+          "value": 26
+        },
+        {
+          "name": "KEYCODE_CAMERA",
+          "value": 27
+        },
+        {
+          "name": "KEYCODE_CLEAR",
+          "value": 28
+        },
+        {
+          "name": "KEYCODE_A",
+          "value": 29
+        },
+        {
+          "name": "KEYCODE_B",
+          "value": 30
+        },
+        {
+          "name": "KEYCODE_C",
+          "value": 31
+        },
+        {
+          "name": "KEYCODE_D",
+          "value": 32
+        },
+        {
+          "name": "KEYCODE_E",
+          "value": 33
+        },
+        {
+          "name": "KEYCODE_F",
+          "value": 34
+        },
+        {
+          "name": "KEYCODE_G",
+          "value": 35
+        },
+        {
+          "name": "KEYCODE_H",
+          "value": 36
+        },
+        {
+          "name": "KEYCODE_I",
+          "value": 37
+        },
+        {
+          "name": "KEYCODE_J",
+          "value": 38
+        },
+        {
+          "name": "KEYCODE_K",
+          "value": 39
+        },
+        {
+          "name": "KEYCODE_L",
+          "value": 40
+        },
+        {
+          "name": "KEYCODE_M",
+          "value": 41
+        },
+        {
+          "name": "KEYCODE_N",
+          "value": 42
+        },
+        {
+          "name": "KEYCODE_O",
+          "value": 43
+        },
+        {
+          "name": "KEYCODE_P",
+          "value": 44
+        },
+        {
+          "name": "KEYCODE_Q",
+          "value": 45
+        },
+        {
+          "name": "KEYCODE_R",
+          "value": 46
+        },
+        {
+          "name": "KEYCODE_S",
+          "value": 47
+        },
+        {
+          "name": "KEYCODE_T",
+          "value": 48
+        },
+        {
+          "name": "KEYCODE_U",
+          "value": 49
+        },
+        {
+          "name": "KEYCODE_V",
+          "value": 50
+        },
+        {
+          "name": "KEYCODE_W",
+          "value": 51
+        },
+        {
+          "name": "KEYCODE_X",
+          "value": 52
+        },
+        {
+          "name": "KEYCODE_Y",
+          "value": 53
+        },
+        {
+          "name": "KEYCODE_Z",
+          "value": 54
+        },
+        {
+          "name": "KEYCODE_COMMA",
+          "value": 55
+        },
+        {
+          "name": "KEYCODE_PERIOD",
+          "value": 56
+        },
+        {
+          "name": "KEYCODE_ALT_LEFT",
+          "value": 57
+        },
+        {
+          "name": "KEYCODE_ALT_RIGHT",
+          "value": 58
+        },
+        {
+          "name": "KEYCODE_SHIFT_LEFT",
+          "value": 59
+        },
+        {
+          "name": "KEYCODE_SHIFT_RIGHT",
+          "value": 60
+        },
+        {
+          "name": "KEYCODE_TAB",
+          "value": 61
+        },
+        {
+          "name": "KEYCODE_SPACE",
+          "value": 62
+        },
+        {
+          "name": "KEYCODE_SYM",
+          "value": 63
+        },
+        {
+          "name": "KEYCODE_EXPLORER",
+          "value": 64
+        },
+        {
+          "name": "KEYCODE_ENVELOPE",
+          "value": 65
+        },
+        {
+          "name": "KEYCODE_ENTER",
+          "value": 66
+        },
+        {
+          "name": "KEYCODE_DEL",
+          "value": 67
+        },
+        {
+          "name": "KEYCODE_GRAVE",
+          "value": 68
+        },
+        {
+          "name": "KEYCODE_MINUS",
+          "value": 69
+        },
+        {
+          "name": "KEYCODE_EQUALS",
+          "value": 70
+        },
+        {
+          "name": "KEYCODE_LEFT_BRACKET",
+          "value": 71
+        },
+        {
+          "name": "KEYCODE_RIGHT_BRACKET",
+          "value": 72
+        },
+        {
+          "name": "KEYCODE_BACKSLASH",
+          "value": 73
+        },
+        {
+          "name": "KEYCODE_SEMICOLON",
+          "value": 74
+        },
+        {
+          "name": "KEYCODE_APOSTROPHE",
+          "value": 75
+        },
+        {
+          "name": "KEYCODE_SLASH",
+          "value": 76
+        },
+        {
+          "name": "KEYCODE_AT",
+          "value": 77
+        },
+        {
+          "name": "KEYCODE_NUM",
+          "value": 78
+        },
+        {
+          "name": "KEYCODE_HEADSETHOOK",
+          "value": 79
+        },
+        {
+          "name": "KEYCODE_FOCUS",
+          "value": 80
+        },
+        {
+          "name": "KEYCODE_PLUS",
+          "value": 81
+        },
+        {
+          "name": "KEYCODE_MENU",
+          "value": 82
+        },
+        {
+          "name": "KEYCODE_NOTIFICATION",
+          "value": 83
+        },
+        {
+          "name": "KEYCODE_SEARCH",
+          "value": 84
+        },
+        {
+          "name": "KEYCODE_MEDIA_PLAY_PAUSE",
+          "value": 85
+        },
+        {
+          "name": "KEYCODE_MEDIA_STOP",
+          "value": 86
+        },
+        {
+          "name": "KEYCODE_MEDIA_NEXT",
+          "value": 87
+        },
+        {
+          "name": "KEYCODE_MEDIA_PREVIOUS",
+          "value": 88
+        },
+        {
+          "name": "KEYCODE_MEDIA_REWIND",
+          "value": 89
+        },
+        {
+          "name": "KEYCODE_MEDIA_FAST_FORWARD",
+          "value": 90
+        },
+        {
+          "name": "KEYCODE_MUTE",
+          "value": 91
+        },
+        {
+          "name": "KEYCODE_PAGE_UP",
+          "value": 92
+        },
+        {
+          "name": "KEYCODE_PAGE_DOWN",
+          "value": 93
+        },
+        {
+          "name": "KEYCODE_PICTSYMBOLS",
+          "value": 94
+        },
+        {
+          "name": "KEYCODE_SWITCH_CHARSET",
+          "value": 95
+        },
+        {
+          "name": "KEYCODE_BUTTON_A",
+          "value": 96
+        },
+        {
+          "name": "KEYCODE_BUTTON_B",
+          "value": 97
+        },
+        {
+          "name": "KEYCODE_BUTTON_C",
+          "value": 98
+        },
+        {
+          "name": "KEYCODE_BUTTON_X",
+          "value": 99
+        },
+        {
+          "name": "KEYCODE_BUTTON_Y",
+          "value": 100
+        },
+        {
+          "name": "KEYCODE_BUTTON_Z",
+          "value": 101
+        },
+        {
+          "name": "KEYCODE_BUTTON_L1",
+          "value": 102
+        },
+        {
+          "name": "KEYCODE_BUTTON_R1",
+          "value": 103
+        },
+        {
+          "name": "KEYCODE_BUTTON_L2",
+          "value": 104
+        },
+        {
+          "name": "KEYCODE_BUTTON_R2",
+          "value": 105
+        },
+        {
+          "name": "KEYCODE_BUTTON_THUMBL",
+          "value": 106
+        },
+        {
+          "name": "KEYCODE_BUTTON_THUMBR",
+          "value": 107
+        },
+        {
+          "name": "KEYCODE_BUTTON_START",
+          "value": 108
+        },
+        {
+          "name": "KEYCODE_BUTTON_SELECT",
+          "value": 109
+        },
+        {
+          "name": "KEYCODE_BUTTON_MODE",
+          "value": 110
+        },
+        {
+          "name": "KEYCODE_ESCAPE",
+          "value": 111
+        },
+        {
+          "name": "KEYCODE_FORWARD_DEL",
+          "value": 112
+        },
+        {
+          "name": "KEYCODE_CTRL_LEFT",
+          "value": 113
+        },
+        {
+          "name": "KEYCODE_CTRL_RIGHT",
+          "value": 114
+        },
+        {
+          "name": "KEYCODE_CAPS_LOCK",
+          "value": 115
+        },
+        {
+          "name": "KEYCODE_SCROLL_LOCK",
+          "value": 116
+        },
+        {
+          "name": "KEYCODE_META_LEFT",
+          "value": 117
+        },
+        {
+          "name": "KEYCODE_META_RIGHT",
+          "value": 118
+        },
+        {
+          "name": "KEYCODE_FUNCTION",
+          "value": 119
+        },
+        {
+          "name": "KEYCODE_SYSRQ",
+          "value": 120
+        },
+        {
+          "name": "KEYCODE_BREAK",
+          "value": 121
+        },
+        {
+          "name": "KEYCODE_MOVE_HOME",
+          "value": 122
+        },
+        {
+          "name": "KEYCODE_MOVE_END",
+          "value": 123
+        },
+        {
+          "name": "KEYCODE_INSERT",
+          "value": 124
+        },
+        {
+          "name": "KEYCODE_FORWARD",
+          "value": 125
+        },
+        {
+          "name": "KEYCODE_MEDIA_PLAY",
+          "value": 126
+        },
+        {
+          "name": "KEYCODE_MEDIA_PAUSE",
+          "value": 127
+        },
+        {
+          "name": "KEYCODE_MEDIA_CLOSE",
+          "value": 128
+        },
+        {
+          "name": "KEYCODE_MEDIA_EJECT",
+          "value": 129
+        },
+        {
+          "name": "KEYCODE_MEDIA_RECORD",
+          "value": 130
+        },
+        {
+          "name": "KEYCODE_F1",
+          "value": 131
+        },
+        {
+          "name": "KEYCODE_F2",
+          "value": 132
+        },
+        {
+          "name": "KEYCODE_F3",
+          "value": 133
+        },
+        {
+          "name": "KEYCODE_F4",
+          "value": 134
+        },
+        {
+          "name": "KEYCODE_F5",
+          "value": 135
+        },
+        {
+          "name": "KEYCODE_F6",
+          "value": 136
+        },
+        {
+          "name": "KEYCODE_F7",
+          "value": 137
+        },
+        {
+          "name": "KEYCODE_F8",
+          "value": 138
+        },
+        {
+          "name": "KEYCODE_F9",
+          "value": 139
+        },
+        {
+          "name": "KEYCODE_F10",
+          "value": 140
+        },
+        {
+          "name": "KEYCODE_F11",
+          "value": 141
+        },
+        {
+          "name": "KEYCODE_F12",
+          "value": 142
+        },
+        {
+          "name": "KEYCODE_NUM_LOCK",
+          "value": 143
+        },
+        {
+          "name": "KEYCODE_NUMPAD_0",
+          "value": 144
+        },
+        {
+          "name": "KEYCODE_NUMPAD_1",
+          "value": 145
+        },
+        {
+          "name": "KEYCODE_NUMPAD_2",
+          "value": 146
+        },
+        {
+          "name": "KEYCODE_NUMPAD_3",
+          "value": 147
+        },
+        {
+          "name": "KEYCODE_NUMPAD_4",
+          "value": 148
+        },
+        {
+          "name": "KEYCODE_NUMPAD_5",
+          "value": 149
+        },
+        {
+          "name": "KEYCODE_NUMPAD_6",
+          "value": 150
+        },
+        {
+          "name": "KEYCODE_NUMPAD_7",
+          "value": 151
+        },
+        {
+          "name": "KEYCODE_NUMPAD_8",
+          "value": 152
+        },
+        {
+          "name": "KEYCODE_NUMPAD_9",
+          "value": 153
+        },
+        {
+          "name": "KEYCODE_NUMPAD_DIVIDE",
+          "value": 154
+        },
+        {
+          "name": "KEYCODE_NUMPAD_MULTIPLY",
+          "value": 155
+        },
+        {
+          "name": "KEYCODE_NUMPAD_SUBTRACT",
+          "value": 156
+        },
+        {
+          "name": "KEYCODE_NUMPAD_ADD",
+          "value": 157
+        },
+        {
+          "name": "KEYCODE_NUMPAD_DOT",
+          "value": 158
+        },
+        {
+          "name": "KEYCODE_NUMPAD_COMMA",
+          "value": 159
+        },
+        {
+          "name": "KEYCODE_NUMPAD_ENTER",
+          "value": 160
+        },
+        {
+          "name": "KEYCODE_NUMPAD_EQUALS",
+          "value": 161
+        },
+        {
+          "name": "KEYCODE_NUMPAD_LEFT_PAREN",
+          "value": 162
+        },
+        {
+          "name": "KEYCODE_NUMPAD_RIGHT_PAREN",
+          "value": 163
+        },
+        {
+          "name": "KEYCODE_VOLUME_MUTE",
+          "value": 164
+        },
+        {
+          "name": "KEYCODE_INFO",
+          "value": 165
+        },
+        {
+          "name": "KEYCODE_CHANNEL_UP",
+          "value": 166
+        },
+        {
+          "name": "KEYCODE_CHANNEL_DOWN",
+          "value": 167
+        },
+        {
+          "name": "KEYCODE_ZOOM_IN",
+          "value": 168
+        },
+        {
+          "name": "KEYCODE_ZOOM_OUT",
+          "value": 169
+        },
+        {
+          "name": "KEYCODE_TV",
+          "value": 170
+        },
+        {
+          "name": "KEYCODE_WINDOW",
+          "value": 171
+        },
+        {
+          "name": "KEYCODE_GUIDE",
+          "value": 172
+        },
+        {
+          "name": "KEYCODE_DVR",
+          "value": 173
+        },
+        {
+          "name": "KEYCODE_BOOKMARK",
+          "value": 174
+        },
+        {
+          "name": "KEYCODE_CAPTIONS",
+          "value": 175
+        },
+        {
+          "name": "KEYCODE_SETTINGS",
+          "value": 176
+        },
+        {
+          "name": "KEYCODE_TV_POWER",
+          "value": 177
+        },
+        {
+          "name": "KEYCODE_TV_INPUT",
+          "value": 178
+        },
+        {
+          "name": "KEYCODE_STB_POWER",
+          "value": 179
+        },
+        {
+          "name": "KEYCODE_STB_INPUT",
+          "value": 180
+        },
+        {
+          "name": "KEYCODE_AVR_POWER",
+          "value": 181
+        },
+        {
+          "name": "KEYCODE_AVR_INPUT",
+          "value": 182
+        },
+        {
+          "name": "KEYCODE_PROG_GRED",
+          "value": 183
+        },
+        {
+          "name": "KEYCODE_PROG_GREEN",
+          "value": 184
+        },
+        {
+          "name": "KEYCODE_PROG_YELLOW",
+          "value": 185
+        },
+        {
+          "name": "KEYCODE_PROG_BLUE",
+          "value": 186
+        },
+        {
+          "name": "KEYCODE_APP_SWITCH",
+          "value": 187
+        },
+        {
+          "name": "KEYCODE_BUTTON_1",
+          "value": 188
+        },
+        {
+          "name": "KEYCODE_BUTTON_2",
+          "value": 189
+        },
+        {
+          "name": "KEYCODE_BUTTON_3",
+          "value": 190
+        },
+        {
+          "name": "KEYCODE_BUTTON_4",
+          "value": 191
+        },
+        {
+          "name": "KEYCODE_BUTTON_5",
+          "value": 192
+        },
+        {
+          "name": "KEYCODE_BUTTON_6",
+          "value": 193
+        },
+        {
+          "name": "KEYCODE_BUTTON_7",
+          "value": 194
+        },
+        {
+          "name": "KEYCODE_BUTTON_8",
+          "value": 195
+        },
+        {
+          "name": "KEYCODE_BUTTON_9",
+          "value": 196
+        },
+        {
+          "name": "KEYCODE_BUTTON_10",
+          "value": 197
+        },
+        {
+          "name": "KEYCODE_BUTTON_11",
+          "value": 198
+        },
+        {
+          "name": "KEYCODE_BUTTON_12",
+          "value": 199
+        },
+        {
+          "name": "KEYCODE_BUTTON_13",
+          "value": 200
+        },
+        {
+          "name": "KEYCODE_BUTTON_14",
+          "value": 201
+        },
+        {
+          "name": "KEYCODE_BUTTON_15",
+          "value": 202
+        },
+        {
+          "name": "KEYCODE_BUTTON_16",
+          "value": 203
+        },
+        {
+          "name": "KEYCODE_LANGUAGE_SWITCH",
+          "value": 204
+        },
+        {
+          "name": "KEYCODE_MANNER_MODE",
+          "value": 205
+        },
+        {
+          "name": "KEYCODE_3D_MODE",
+          "value": 206
+        },
+        {
+          "name": "KEYCODE_CONTACTS",
+          "value": 207
+        },
+        {
+          "name": "KEYCODE_CALENDAR",
+          "value": 208
+        },
+        {
+          "name": "KEYCODE_MUSIC",
+          "value": 209
+        },
+        {
+          "name": "KEYCODE_CALCULATOR",
+          "value": 210
+        },
+        {
+          "name": "KEYCODE_ZENKAKU_HANKAKU",
+          "value": 211
+        },
+        {
+          "name": "KEYCODE_EISU",
+          "value": 212
+        },
+        {
+          "name": "KEYCODE_MUHENKAN",
+          "value": 213
+        },
+        {
+          "name": "KEYCODE_HENKAN",
+          "value": 214
+        },
+        {
+          "name": "KEYCODE_KATAKANA_HIRAGANA",
+          "value": 215
+        },
+        {
+          "name": "KEYCODE_YEN",
+          "value": 216
+        },
+        {
+          "name": "KEYCODE_RO",
+          "value": 217
+        },
+        {
+          "name": "KEYCODE_KANA",
+          "value": 218
+        },
+        {
+          "name": "KEYCODE_ASSIST",
+          "value": 219
+        },
+        {
+          "name": "KEYCODE_BRIGHTNESS_DOWN",
+          "value": 220
+        },
+        {
+          "name": "KEYCODE_BRIGHTNESS_UP",
+          "value": 221
+        },
+        {
+          "name": "KEYCODE_MEDIA_AUDIO_TRACK",
+          "value": 222
+        },
+        {
+          "name": "KEYCODE_MEDIA_SLEEP",
+          "value": 223
+        },
+        {
+          "name": "KEYCODE_MEDIA_WAKEUP",
+          "value": 224
+        },
+        {
+          "name": "KEYCODE_PAIRING",
+          "value": 225
+        },
+        {
+          "name": "KEYCODE_MEDIA_TOP_MENU",
+          "value": 226
+        },
+        {
+          "name": "KEYCODE_11",
+          "value": 227
+        },
+        {
+          "name": "KEYCODE_12",
+          "value": 228
+        },
+        {
+          "name": "KEYCODE_LAST_CHANNEL",
+          "value": 229
+        },
+        {
+          "name": "KEYCODE_TV_DATA_SERVICE",
+          "value": 230
+        },
+        {
+          "name": "KEYCODE_VOICE_ASSIST",
+          "value": 231
+        },
+        {
+          "name": "KEYCODE_TV_RADIO_SERVICE",
+          "value": 232
+        },
+        {
+          "name": "KEYCODE_TV_TELETEXT",
+          "value": 233
+        },
+        {
+          "name": "KEYCODE_TV_NUMBER_ENTRY",
+          "value": 234
+        },
+        {
+          "name": "KEYCODE_TV_TERRESTRIAL_ANALOG",
+          "value": 235
+        },
+        {
+          "name": "KEYCODE_TV_TERRESTRIAL_DIGITAL",
+          "value": 236
+        },
+        {
+          "name": "KEYCODE_TV_SATELLITE",
+          "value": 237
+        },
+        {
+          "name": "KEYCODE_TV_SATELLITE_BS",
+          "value": 238
+        },
+        {
+          "name": "KEYCODE_TV_SATELLITE_CS",
+          "value": 239
+        },
+        {
+          "name": "KEYCODE_TV_SATELLITE_SERVICE",
+          "value": 240
+        },
+        {
+          "name": "KEYCODE_TV_NETWORK",
+          "value": 241
+        },
+        {
+          "name": "KEYCODE_TV_ANTENNA_CABLE",
+          "value": 242
+        },
+        {
+          "name": "KEYCODE_TV_INPUT_HDMI_1",
+          "value": 243
+        },
+        {
+          "name": "KEYCODE_TV_INPUT_HDMI_2",
+          "value": 244
+        },
+        {
+          "name": "KEYCODE_TV_INPUT_HDMI_3",
+          "value": 245
+        },
+        {
+          "name": "KEYCODE_TV_INPUT_HDMI_4",
+          "value": 246
+        },
+        {
+          "name": "KEYCODE_TV_INPUT_COMPOSITE_1",
+          "value": 247
+        },
+        {
+          "name": "KEYCODE_TV_INPUT_COMPOSITE_2",
+          "value": 248
+        },
+        {
+          "name": "KEYCODE_TV_INPUT_COMPONENT_1",
+          "value": 249
+        },
+        {
+          "name": "KEYCODE_TV_INPUT_COMPONENT_2",
+          "value": 250
+        },
+        {
+          "name": "KEYCODE_TV_INPUT_VGA_1",
+          "value": 251
+        },
+        {
+          "name": "KEYCODE_TV_AUDIO_DESCRIPTION",
+          "value": 252
+        },
+        {
+          "name": "KEYCODE_TV_AUDIO_DESCRIPTION_MIX_UP",
+          "value": 253
+        },
+        {
+          "name": "KEYCODE_TV_AUDIO_DESCRIPTION_MIX_DOWN",
+          "value": 254
+        },
+        {
+          "name": "KEYCODE_TV_ZOOM_MODE",
+          "value": 255
+        },
+        {
+          "name": "KEYCODE_TV_CONTENTS_MENU",
+          "value": 256
+        },
+        {
+          "name": "KEYCODE_TV_MEDIA_CONTEXT_MENU",
+          "value": 257
+        },
+        {
+          "name": "KEYCODE_TV_TIMER_PROGRAMMING",
+          "value": 258
+        },
+        {
+          "name": "KEYCODE_HELP",
+          "value": 259
+        },
+        {
+          "name": "KEYCODE_NAVIGATE_PREVIOUS",
+          "value": 260
+        },
+        {
+          "name": "KEYCODE_NAVIGATE_NEXT",
+          "value": 261
+        },
+        {
+          "name": "KEYCODE_NAVIGATE_IN",
+          "value": 262
+        },
+        {
+          "name": "KEYCODE_NAVIGATE_OUT",
+          "value": 263
+        },
+        {
+          "name": "KEYCODE_STEM_PRIMARY",
+          "value": 264
+        },
+        {
+          "name": "KEYCODE_STEM_1",
+          "value": 265
+        },
+        {
+          "name": "KEYCODE_STEM_2",
+          "value": 266
+        },
+        {
+          "name": "KEYCODE_STEM_3",
+          "value": 267
+        },
+        {
+          "name": "KEYCODE_DPAD_UP_LEFT",
+          "value": 268
+        },
+        {
+          "name": "KEYCODE_DPAD_DOWN_LEFT",
+          "value": 269
+        },
+        {
+          "name": "KEYCODE_DPAD_UP_RIGHT",
+          "value": 270
+        },
+        {
+          "name": "KEYCODE_DPAD_DOWN_RIGHT",
+          "value": 271
+        },
+        {
+          "name": "KEYCODE_MEDIA_SKIP_FORWARD",
+          "value": 272
+        },
+        {
+          "name": "KEYCODE_MEDIA_SKIP_BACKWARD",
+          "value": 273
+        },
+        {
+          "name": "KEYCODE_MEDIA_STEP_FORWARD",
+          "value": 274
+        },
+        {
+          "name": "KEYCODE_MEDIA_STEP_BACKWARD",
+          "value": 275
+        },
+        {
+          "name": "KEYCODE_SOFT_SLEEP",
+          "value": 276
+        },
+        {
+          "name": "KEYCODE_CUT",
+          "value": 277
+        },
+        {
+          "name": "KEYCODE_COPY",
+          "value": 278
+        },
+        {
+          "name": "KEYCODE_PASTE",
+          "value": 279
+        },
+        {
+          "name": "KEYCODE_SYSTEM_NAVIGATION_UP",
+          "value": 280
+        },
+        {
+          "name": "KEYCODE_SYSTEM_NAVIGATION_DOWN",
+          "value": 281
+        },
+        {
+          "name": "KEYCODE_SYSTEM_NAVIGATION_LEFT",
+          "value": 282
+        },
+        {
+          "name": "KEYCODE_SYSTEM_NAVIGATION_RIGHT",
+          "value": 283
+        },
+        {
+          "name": "KEYCODE_ALL_APPS",
+          "value": 284
+        },
+        {
+          "name": "KEYCODE_REFRESH",
+          "value": 285
+        },
+        {
+          "name": "KEYCODE_THUMBS_UP",
+          "value": 286
+        },
+        {
+          "name": "KEYCODE_THUMBS_DOWN",
+          "value": 287
+        },
+        {
+          "name": "KEYCODE_PROFILE_SWITCH",
+          "value": 288
+        },
+        {
+          "name": "KEYCODE_VIDEO_APP_1",
+          "value": 289
+        },
+        {
+          "name": "KEYCODE_VIDEO_APP_2",
+          "value": 290
+        },
+        {
+          "name": "KEYCODE_VIDEO_APP_3",
+          "value": 291
+        },
+        {
+          "name": "KEYCODE_VIDEO_APP_4",
+          "value": 292
+        },
+        {
+          "name": "KEYCODE_VIDEO_APP_5",
+          "value": 293
+        },
+        {
+          "name": "KEYCODE_VIDEO_APP_6",
+          "value": 294
+        },
+        {
+          "name": "KEYCODE_VIDEO_APP_7",
+          "value": 295
+        },
+        {
+          "name": "KEYCODE_VIDEO_APP_8",
+          "value": 296
+        },
+        {
+          "name": "KEYCODE_FEATURED_APP_1",
+          "value": 297
+        },
+        {
+          "name": "KEYCODE_FEATURED_APP_2",
+          "value": 298
+        },
+        {
+          "name": "KEYCODE_FEATURED_APP_3",
+          "value": 299
+        },
+        {
+          "name": "KEYCODE_FEATURED_APP_4",
+          "value": 300
+        },
+        {
+          "name": "KEYCODE_DEMO_APP_1",
+          "value": 301
+        },
+        {
+          "name": "KEYCODE_DEMO_APP_2",
+          "value": 302
+        },
+        {
+          "name": "KEYCODE_DEMO_APP_3",
+          "value": 303
+        },
+        {
+          "name": "KEYCODE_DEMO_APP_4",
+          "value": 304
+        }
+      ]
+    },
+    {
+      "name": "layout_childType",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "widget",
+          "value": 1
+        },
+        {
+          "name": "challenge",
+          "value": 2
+        },
+        {
+          "name": "userSwitcher",
+          "value": 3
+        },
+        {
+          "name": "scrim",
+          "value": 4
+        },
+        {
+          "name": "widgets",
+          "value": 5
+        },
+        {
+          "name": "expandChallengeHandle",
+          "value": 6
+        },
+        {
+          "name": "pageDeleteDropTarget",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "windowSoftInputMode",
+      "flags": [
+        {
+          "name": "stateUnspecified",
+          "value": 0
+        },
+        {
+          "name": "stateUnchanged",
+          "value": 1
+        },
+        {
+          "name": "stateHidden",
+          "value": 2
+        },
+        {
+          "name": "stateAlwaysHidden",
+          "value": 3
+        },
+        {
+          "name": "stateVisible",
+          "value": 4
+        },
+        {
+          "name": "stateAlwaysVisible",
+          "value": 5
+        },
+        {
+          "name": "adjustUnspecified",
+          "value": 0
+        },
+        {
+          "name": "adjustResize",
+          "value": 16
+        },
+        {
+          "name": "adjustPan",
+          "value": 32
+        },
+        {
+          "name": "adjustNothing",
+          "value": 48
+        }
+      ]
+    },
+    {
+      "name": "fastScrollOverlayPosition",
+      "enums": [
+        {
+          "name": "floating",
+          "value": 0
+        },
+        {
+          "name": "atThumb",
+          "value": 1
+        },
+        {
+          "name": "aboveThumb",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "actionBarSize",
+      "enums": [
+        {
+          "name": "wrap_content",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "name": "windowLayoutInDisplayCutoutMode",
+      "enums": [
+        {
+          "name": "default",
+          "value": 0
+        },
+        {
+          "name": "shortEdges",
+          "value": 1
+        },
+        {
+          "name": "never",
+          "value": 2
+        },
+        {
+          "name": "always",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "windowSplashScreenBehavior",
+      "enums": [
+        {
+          "name": "default",
+          "value": 0
+        },
+        {
+          "name": "icon_preferred",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "controllerType",
+      "enums": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "micro",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "focusable",
+      "enums": [
+        {
+          "name": "auto",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "importantForAutofill",
+      "flags": [
+        {
+          "name": "auto",
+          "value": 0
+        },
+        {
+          "name": "yes",
+          "value": 1
+        },
+        {
+          "name": "no",
+          "value": 2
+        },
+        {
+          "name": "yesExcludeDescendants",
+          "value": 4
+        },
+        {
+          "name": "noExcludeDescendants",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "importantForContentCapture",
+      "flags": [
+        {
+          "name": "auto",
+          "value": 0
+        },
+        {
+          "name": "yes",
+          "value": 1
+        },
+        {
+          "name": "no",
+          "value": 2
+        },
+        {
+          "name": "yesExcludeDescendants",
+          "value": 4
+        },
+        {
+          "name": "noExcludeDescendants",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "scrollCaptureHint",
+      "flags": [
+        {
+          "name": "auto",
+          "value": 0
+        },
+        {
+          "name": "include",
+          "value": 1
+        },
+        {
+          "name": "exclude",
+          "value": 2
+        },
+        {
+          "name": "excludeDescendants",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "visibility",
+      "enums": [
+        {
+          "name": "visible",
+          "value": 0
+        },
+        {
+          "name": "invisible",
+          "value": 1
+        },
+        {
+          "name": "gone",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "scrollbars",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "horizontal",
+          "value": 256
+        },
+        {
+          "name": "vertical",
+          "value": 512
+        }
+      ]
+    },
+    {
+      "name": "scrollbarStyle",
+      "enums": [
+        {
+          "name": "insideOverlay",
+          "value": 0
+        },
+        {
+          "name": "insideInset",
+          "value": 16777216
+        },
+        {
+          "name": "outsideOverlay",
+          "value": 33554432
+        },
+        {
+          "name": "outsideInset",
+          "value": 50331648
+        }
+      ]
+    },
+    {
+      "name": "fadingEdge",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "horizontal",
+          "value": 4096
+        },
+        {
+          "name": "vertical",
+          "value": 8192
+        }
+      ]
+    },
+    {
+      "name": "requiresFadingEdge",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "horizontal",
+          "value": 4096
+        },
+        {
+          "name": "vertical",
+          "value": 8192
+        }
+      ]
+    },
+    {
+      "name": "drawingCacheQuality",
+      "enums": [
+        {
+          "name": "auto",
+          "value": 0
+        },
+        {
+          "name": "low",
+          "value": 1
+        },
+        {
+          "name": "high",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "overScrollMode",
+      "enums": [
+        {
+          "name": "always",
+          "value": 0
+        },
+        {
+          "name": "ifContentScrolls",
+          "value": 1
+        },
+        {
+          "name": "never",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "verticalScrollbarPosition",
+      "enums": [
+        {
+          "name": "defaultPosition",
+          "value": 0
+        },
+        {
+          "name": "left",
+          "value": 1
+        },
+        {
+          "name": "right",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "layerType",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "software",
+          "value": 1
+        },
+        {
+          "name": "hardware",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "layoutDirection",
+      "enums": [
+        {
+          "name": "ltr",
+          "value": 0
+        },
+        {
+          "name": "rtl",
+          "value": 1
+        },
+        {
+          "name": "inherit",
+          "value": 2
+        },
+        {
+          "name": "locale",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "textDirection",
+      "enums": [
+        {
+          "name": "inherit",
+          "value": 0
+        },
+        {
+          "name": "firstStrong",
+          "value": 1
+        },
+        {
+          "name": "anyRtl",
+          "value": 2
+        },
+        {
+          "name": "ltr",
+          "value": 3
+        },
+        {
+          "name": "rtl",
+          "value": 4
+        },
+        {
+          "name": "locale",
+          "value": 5
+        },
+        {
+          "name": "firstStrongLtr",
+          "value": 6
+        },
+        {
+          "name": "firstStrongRtl",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "textAlignment",
+      "enums": [
+        {
+          "name": "inherit",
+          "value": 0
+        },
+        {
+          "name": "gravity",
+          "value": 1
+        },
+        {
+          "name": "textStart",
+          "value": 2
+        },
+        {
+          "name": "textEnd",
+          "value": 3
+        },
+        {
+          "name": "center",
+          "value": 4
+        },
+        {
+          "name": "viewStart",
+          "value": 5
+        },
+        {
+          "name": "viewEnd",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "name": "importantForAccessibility",
+      "enums": [
+        {
+          "name": "auto",
+          "value": 0
+        },
+        {
+          "name": "yes",
+          "value": 1
+        },
+        {
+          "name": "no",
+          "value": 2
+        },
+        {
+          "name": "noHideDescendants",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "accessibilityLiveRegion",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "polite",
+          "value": 1
+        },
+        {
+          "name": "assertive",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "backgroundTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "outlineProvider",
+      "enums": [
+        {
+          "name": "background",
+          "value": 0
+        },
+        {
+          "name": "none",
+          "value": 1
+        },
+        {
+          "name": "bounds",
+          "value": 2
+        },
+        {
+          "name": "paddedBounds",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "foregroundGravity",
+      "flags": [
+        {
+          "name": "top",
+          "value": 48
+        },
+        {
+          "name": "bottom",
+          "value": 80
+        },
+        {
+          "name": "left",
+          "value": 3
+        },
+        {
+          "name": "right",
+          "value": 5
+        },
+        {
+          "name": "center_vertical",
+          "value": 16
+        },
+        {
+          "name": "fill_vertical",
+          "value": 112
+        },
+        {
+          "name": "center_horizontal",
+          "value": 1
+        },
+        {
+          "name": "fill_horizontal",
+          "value": 7
+        },
+        {
+          "name": "center",
+          "value": 17
+        },
+        {
+          "name": "fill",
+          "value": 119
+        },
+        {
+          "name": "clip_vertical",
+          "value": 128
+        },
+        {
+          "name": "clip_horizontal",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "foregroundTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "scrollIndicators",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "top",
+          "value": 1
+        },
+        {
+          "name": "bottom",
+          "value": 2
+        },
+        {
+          "name": "left",
+          "value": 4
+        },
+        {
+          "name": "right",
+          "value": 8
+        },
+        {
+          "name": "start",
+          "value": 16
+        },
+        {
+          "name": "end",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "pointerIcon",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "arrow",
+          "value": 1000
+        },
+        {
+          "name": "context_menu",
+          "value": 1001
+        },
+        {
+          "name": "hand",
+          "value": 1002
+        },
+        {
+          "name": "help",
+          "value": 1003
+        },
+        {
+          "name": "wait",
+          "value": 1004
+        },
+        {
+          "name": "cell",
+          "value": 1006
+        },
+        {
+          "name": "crosshair",
+          "value": 1007
+        },
+        {
+          "name": "text",
+          "value": 1008
+        },
+        {
+          "name": "vertical_text",
+          "value": 1009
+        },
+        {
+          "name": "alias",
+          "value": 1010
+        },
+        {
+          "name": "copy",
+          "value": 1011
+        },
+        {
+          "name": "no_drop",
+          "value": 1012
+        },
+        {
+          "name": "all_scroll",
+          "value": 1013
+        },
+        {
+          "name": "horizontal_double_arrow",
+          "value": 1014
+        },
+        {
+          "name": "vertical_double_arrow",
+          "value": 1015
+        },
+        {
+          "name": "top_right_diagonal_double_arrow",
+          "value": 1016
+        },
+        {
+          "name": "top_left_diagonal_double_arrow",
+          "value": 1017
+        },
+        {
+          "name": "zoom_in",
+          "value": 1018
+        },
+        {
+          "name": "zoom_out",
+          "value": 1019
+        },
+        {
+          "name": "grab",
+          "value": 1020
+        },
+        {
+          "name": "grabbing",
+          "value": 1021
+        }
+      ]
+    },
+    {
+      "name": "persistentDrawingCache",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "animation",
+          "value": 1
+        },
+        {
+          "name": "scrolling",
+          "value": 2
+        },
+        {
+          "name": "all",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "descendantFocusability",
+      "enums": [
+        {
+          "name": "beforeDescendants",
+          "value": 0
+        },
+        {
+          "name": "afterDescendants",
+          "value": 1
+        },
+        {
+          "name": "blocksDescendants",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "layoutMode",
+      "enums": [
+        {
+          "name": "clipBounds",
+          "value": 0
+        },
+        {
+          "name": "opticalBounds",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "layout_width",
+      "enums": [
+        {
+          "name": "fill_parent",
+          "value": -1
+        },
+        {
+          "name": "match_parent",
+          "value": -1
+        },
+        {
+          "name": "wrap_content",
+          "value": -2
+        }
+      ]
+    },
+    {
+      "name": "layout_height",
+      "enums": [
+        {
+          "name": "fill_parent",
+          "value": -1
+        },
+        {
+          "name": "match_parent",
+          "value": -1
+        },
+        {
+          "name": "wrap_content",
+          "value": -2
+        }
+      ]
+    },
+    {
+      "name": "accessibilityEventTypes",
+      "flags": [
+        {
+          "name": "typeViewClicked",
+          "value": 1
+        },
+        {
+          "name": "typeViewLongClicked",
+          "value": 2
+        },
+        {
+          "name": "typeViewSelected",
+          "value": 4
+        },
+        {
+          "name": "typeViewFocused",
+          "value": 8
+        },
+        {
+          "name": "typeViewTextChanged",
+          "value": 16
+        },
+        {
+          "name": "typeWindowStateChanged",
+          "value": 32
+        },
+        {
+          "name": "typeNotificationStateChanged",
+          "value": 64
+        },
+        {
+          "name": "typeViewHoverEnter",
+          "value": 128
+        },
+        {
+          "name": "typeViewHoverExit",
+          "value": 256
+        },
+        {
+          "name": "typeTouchExplorationGestureStart",
+          "value": 512
+        },
+        {
+          "name": "typeTouchExplorationGestureEnd",
+          "value": 1024
+        },
+        {
+          "name": "typeWindowContentChanged",
+          "value": 2048
+        },
+        {
+          "name": "typeViewScrolled",
+          "value": 4096
+        },
+        {
+          "name": "typeViewTextSelectionChanged",
+          "value": 8192
+        },
+        {
+          "name": "typeAnnouncement",
+          "value": 16384
+        },
+        {
+          "name": "typeViewAccessibilityFocused",
+          "value": 32768
+        },
+        {
+          "name": "typeViewAccessibilityFocusCleared",
+          "value": 65536
+        },
+        {
+          "name": "typeViewTextTraversedAtMovementGranularity",
+          "value": 131072
+        },
+        {
+          "name": "typeGestureDetectionStart",
+          "value": 262144
+        },
+        {
+          "name": "typeGestureDetectionEnd",
+          "value": 524288
+        },
+        {
+          "name": "typeTouchInteractionStart",
+          "value": 1048576
+        },
+        {
+          "name": "typeTouchInteractionEnd",
+          "value": 2097152
+        },
+        {
+          "name": "typeWindowsChanged",
+          "value": 4194304
+        },
+        {
+          "name": "typeContextClicked",
+          "value": 8388608
+        },
+        {
+          "name": "typeAssistReadingContext",
+          "value": 16777216
+        },
+        {
+          "name": "typeAllMask",
+          "value": -1
+        }
+      ]
+    },
+    {
+      "name": "accessibilityFeedbackType",
+      "flags": [
+        {
+          "name": "feedbackSpoken",
+          "value": 1
+        },
+        {
+          "name": "feedbackHaptic",
+          "value": 2
+        },
+        {
+          "name": "feedbackAudible",
+          "value": 4
+        },
+        {
+          "name": "feedbackVisual",
+          "value": 8
+        },
+        {
+          "name": "feedbackGeneric",
+          "value": 16
+        },
+        {
+          "name": "feedbackAllMask",
+          "value": -1
+        }
+      ]
+    },
+    {
+      "name": "accessibilityFlags",
+      "flags": [
+        {
+          "name": "flagDefault",
+          "value": 1
+        },
+        {
+          "name": "flagIncludeNotImportantViews",
+          "value": 2
+        },
+        {
+          "name": "flagRequestTouchExplorationMode",
+          "value": 4
+        },
+        {
+          "name": "flagRequestEnhancedWebAccessibility",
+          "value": 8
+        },
+        {
+          "name": "flagReportViewIds",
+          "value": 16
+        },
+        {
+          "name": "flagRequestFilterKeyEvents",
+          "value": 32
+        },
+        {
+          "name": "flagRetrieveInteractiveWindows",
+          "value": 64
+        },
+        {
+          "name": "flagEnableAccessibilityVolume",
+          "value": 128
+        },
+        {
+          "name": "flagRequestAccessibilityButton",
+          "value": 256
+        },
+        {
+          "name": "flagRequestFingerprintGestures",
+          "value": 512
+        },
+        {
+          "name": "flagRequestShortcutWarningDialogSpokenFeedback",
+          "value": 1024
+        },
+        {
+          "name": "flagServiceHandlesDoubleTap",
+          "value": 2048
+        },
+        {
+          "name": "flagRequestMultiFingerGestures",
+          "value": 4096
+        },
+        {
+          "name": "flagSendMotionEvents",
+          "value": 16384
+        },
+        {
+          "name": "flagInputMethodEditor",
+          "value": 32768
+        }
+      ]
+    },
+    {
+      "name": "transcriptMode",
+      "enums": [
+        {
+          "name": "disabled",
+          "value": 0
+        },
+        {
+          "name": "normal",
+          "value": 1
+        },
+        {
+          "name": "alwaysScroll",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "choiceMode",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "singleChoice",
+          "value": 1
+        },
+        {
+          "name": "multipleChoice",
+          "value": 2
+        },
+        {
+          "name": "multipleChoiceModal",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "dialTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "hand_hourTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "hand_minuteTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "hand_secondTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "buttonTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "checkMarkTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "checkMarkGravity",
+      "flags": [
+        {
+          "name": "left",
+          "value": 3
+        },
+        {
+          "name": "right",
+          "value": 5
+        },
+        {
+          "name": "start",
+          "value": 8388611
+        },
+        {
+          "name": "end",
+          "value": 8388613
+        }
+      ]
+    },
+    {
+      "name": "position",
+      "enums": [
+        {
+          "name": "floating",
+          "value": 0
+        },
+        {
+          "name": "atThumb",
+          "value": 1
+        },
+        {
+          "name": "aboveThumb",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "thumbPosition",
+      "enums": [
+        {
+          "name": "midpoint",
+          "value": 0
+        },
+        {
+          "name": "inside",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "stretchMode",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "spacingWidth",
+          "value": 1
+        },
+        {
+          "name": "columnWidth",
+          "value": 2
+        },
+        {
+          "name": "spacingWidthUniform",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "numColumns",
+      "enums": [
+        {
+          "name": "auto_fit",
+          "value": -1
+        }
+      ]
+    },
+    {
+      "name": "scaleType",
+      "enums": [
+        {
+          "name": "matrix",
+          "value": 0
+        },
+        {
+          "name": "fitXY",
+          "value": 1
+        },
+        {
+          "name": "fitStart",
+          "value": 2
+        },
+        {
+          "name": "fitCenter",
+          "value": 3
+        },
+        {
+          "name": "fitEnd",
+          "value": 4
+        },
+        {
+          "name": "center",
+          "value": 5
+        },
+        {
+          "name": "centerCrop",
+          "value": 6
+        },
+        {
+          "name": "centerInside",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "showDividers",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "beginning",
+          "value": 1
+        },
+        {
+          "name": "middle",
+          "value": 2
+        },
+        {
+          "name": "end",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "indeterminateBehavior",
+      "enums": [
+        {
+          "name": "repeat",
+          "value": 1
+        },
+        {
+          "name": "cycle",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "progressTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "progressBackgroundTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "secondaryProgressTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "indeterminateTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "thumbTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "tickMarkTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "bufferType",
+      "enums": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "spannable",
+          "value": 1
+        },
+        {
+          "name": "editable",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "numeric",
+      "flags": [
+        {
+          "name": "integer",
+          "value": 1
+        },
+        {
+          "name": "signed",
+          "value": 3
+        },
+        {
+          "name": "decimal",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "name": "capitalize",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "sentences",
+          "value": 1
+        },
+        {
+          "name": "words",
+          "value": 2
+        },
+        {
+          "name": "characters",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "drawableTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "marqueeRepeatLimit",
+      "enums": [
+        {
+          "name": "marquee_forever",
+          "value": -1
+        }
+      ]
+    },
+    {
+      "name": "breakStrategy",
+      "enums": [
+        {
+          "name": "simple",
+          "value": 0
+        },
+        {
+          "name": "high_quality",
+          "value": 1
+        },
+        {
+          "name": "balanced",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "hyphenationFrequency",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "normal",
+          "value": 1
+        },
+        {
+          "name": "full",
+          "value": 2
+        },
+        {
+          "name": "normalFast",
+          "value": 3
+        },
+        {
+          "name": "fullFast",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "lineBreakStyle",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "loose",
+          "value": 1
+        },
+        {
+          "name": "normal",
+          "value": 2
+        },
+        {
+          "name": "strict",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "lineBreakWordStyle",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "phrase",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "autoSizeTextType",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "uniform",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "justificationMode",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "inter_word",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "dropDownWidth",
+      "enums": [
+        {
+          "name": "fill_parent",
+          "value": -1
+        },
+        {
+          "name": "match_parent",
+          "value": -1
+        },
+        {
+          "name": "wrap_content",
+          "value": -2
+        }
+      ]
+    },
+    {
+      "name": "dropDownHeight",
+      "enums": [
+        {
+          "name": "fill_parent",
+          "value": -1
+        },
+        {
+          "name": "match_parent",
+          "value": -1
+        },
+        {
+          "name": "wrap_content",
+          "value": -2
+        }
+      ]
+    },
+    {
+      "name": "spinnerMode",
+      "enums": [
+        {
+          "name": "dialog",
+          "value": 0
+        },
+        {
+          "name": "dropdown",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "datePickerMode",
+      "enums": [
+        {
+          "name": "spinner",
+          "value": 1
+        },
+        {
+          "name": "calendar",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "mode",
+      "enums": [
+        {
+          "name": "oneLine",
+          "value": 1
+        },
+        {
+          "name": "collapsing",
+          "value": 2
+        },
+        {
+          "name": "twoLine",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "gestureStrokeType",
+      "enums": [
+        {
+          "name": "single",
+          "value": 0
+        },
+        {
+          "name": "multiple",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "quickContactWindowSize",
+      "enums": [
+        {
+          "name": "modeSmall",
+          "value": 1
+        },
+        {
+          "name": "modeMedium",
+          "value": 2
+        },
+        {
+          "name": "modeLarge",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "calendarViewMode",
+      "enums": [
+        {
+          "name": "holo",
+          "value": 0
+        },
+        {
+          "name": "material",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "timePickerMode",
+      "enums": [
+        {
+          "name": "spinner",
+          "value": 1
+        },
+        {
+          "name": "clock",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "shape",
+      "enums": [
+        {
+          "name": "rectangle",
+          "value": 0
+        },
+        {
+          "name": "oval",
+          "value": 1
+        },
+        {
+          "name": "line",
+          "value": 2
+        },
+        {
+          "name": "ring",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "type",
+      "enums": [
+        {
+          "name": "linear",
+          "value": 0
+        },
+        {
+          "name": "radial",
+          "value": 1
+        },
+        {
+          "name": "sweep",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "opacity",
+      "enums": [
+        {
+          "name": "opaque",
+          "value": -1
+        },
+        {
+          "name": "transparent",
+          "value": -2
+        },
+        {
+          "name": "translucent",
+          "value": -3
+        }
+      ]
+    },
+    {
+      "name": "paddingMode",
+      "enums": [
+        {
+          "name": "nest",
+          "value": 0
+        },
+        {
+          "name": "stack",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "tileMode",
+      "enums": [
+        {
+          "name": "disabled",
+          "value": -1
+        },
+        {
+          "name": "clamp",
+          "value": 0
+        },
+        {
+          "name": "repeat",
+          "value": 1
+        },
+        {
+          "name": "mirror",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "tileModeX",
+      "enums": [
+        {
+          "name": "disabled",
+          "value": -1
+        },
+        {
+          "name": "clamp",
+          "value": 0
+        },
+        {
+          "name": "repeat",
+          "value": 1
+        },
+        {
+          "name": "mirror",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "tileModeY",
+      "enums": [
+        {
+          "name": "disabled",
+          "value": -1
+        },
+        {
+          "name": "clamp",
+          "value": 0
+        },
+        {
+          "name": "repeat",
+          "value": 1
+        },
+        {
+          "name": "mirror",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "tintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "scaleGravity",
+      "flags": [
+        {
+          "name": "top",
+          "value": 48
+        },
+        {
+          "name": "bottom",
+          "value": 80
+        },
+        {
+          "name": "left",
+          "value": 3
+        },
+        {
+          "name": "right",
+          "value": 5
+        },
+        {
+          "name": "center_vertical",
+          "value": 16
+        },
+        {
+          "name": "fill_vertical",
+          "value": 112
+        },
+        {
+          "name": "center_horizontal",
+          "value": 1
+        },
+        {
+          "name": "fill_horizontal",
+          "value": 7
+        },
+        {
+          "name": "center",
+          "value": 17
+        },
+        {
+          "name": "fill",
+          "value": 119
+        },
+        {
+          "name": "clip_vertical",
+          "value": 128
+        },
+        {
+          "name": "clip_horizontal",
+          "value": 8
+        },
+        {
+          "name": "start",
+          "value": 8388611
+        },
+        {
+          "name": "end",
+          "value": 8388613
+        }
+      ]
+    },
+    {
+      "name": "clipOrientation",
+      "flags": [
+        {
+          "name": "horizontal",
+          "value": 1
+        },
+        {
+          "name": "vertical",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "strokeLineCap",
+      "enums": [
+        {
+          "name": "butt",
+          "value": 0
+        },
+        {
+          "name": "round",
+          "value": 1
+        },
+        {
+          "name": "square",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "strokeLineJoin",
+      "enums": [
+        {
+          "name": "miter",
+          "value": 0
+        },
+        {
+          "name": "round",
+          "value": 1
+        },
+        {
+          "name": "bevel",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "fillType",
+      "enums": [
+        {
+          "name": "nonZero",
+          "value": 0
+        },
+        {
+          "name": "evenOdd",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "repeatCount",
+      "enums": [
+        {
+          "name": "infinite",
+          "value": -1
+        }
+      ]
+    },
+    {
+      "name": "repeatMode",
+      "enums": [
+        {
+          "name": "restart",
+          "value": 1
+        },
+        {
+          "name": "reverse",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "zAdjustment",
+      "enums": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "top",
+          "value": 1
+        },
+        {
+          "name": "bottom",
+          "value": -1
+        }
+      ]
+    },
+    {
+      "name": "animationOrder",
+      "enums": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "reverse",
+          "value": 1
+        },
+        {
+          "name": "random",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "direction",
+      "flags": [
+        {
+          "name": "left_to_right",
+          "value": 0
+        },
+        {
+          "name": "right_to_left",
+          "value": 1
+        },
+        {
+          "name": "top_to_bottom",
+          "value": 0
+        },
+        {
+          "name": "bottom_to_top",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "directionPriority",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "column",
+          "value": 1
+        },
+        {
+          "name": "row",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "fadingMode",
+      "enums": [
+        {
+          "name": "fade_in",
+          "value": 1
+        },
+        {
+          "name": "fade_out",
+          "value": 2
+        },
+        {
+          "name": "fade_in_out",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "slideEdge",
+      "enums": [
+        {
+          "name": "left",
+          "value": 3
+        },
+        {
+          "name": "top",
+          "value": 48
+        },
+        {
+          "name": "right",
+          "value": 5
+        },
+        {
+          "name": "bottom",
+          "value": 80
+        },
+        {
+          "name": "start",
+          "value": 8388611
+        },
+        {
+          "name": "end",
+          "value": 8388613
+        }
+      ]
+    },
+    {
+      "name": "transitionVisibilityMode",
+      "flags": [
+        {
+          "name": "mode_in",
+          "value": 1
+        },
+        {
+          "name": "mode_out",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "transitionOrdering",
+      "enums": [
+        {
+          "name": "together",
+          "value": 0
+        },
+        {
+          "name": "sequential",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "valueType",
+      "enums": [
+        {
+          "name": "floatType",
+          "value": 0
+        },
+        {
+          "name": "intType",
+          "value": 1
+        },
+        {
+          "name": "pathType",
+          "value": 2
+        },
+        {
+          "name": "colorType",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "ordering",
+      "enums": [
+        {
+          "name": "together",
+          "value": 0
+        },
+        {
+          "name": "sequentially",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "searchMode",
+      "flags": [
+        {
+          "name": "showSearchLabelAsBadge",
+          "value": 4
+        },
+        {
+          "name": "showSearchIconAsBadge",
+          "value": 8
+        },
+        {
+          "name": "queryRewriteFromData",
+          "value": 16
+        },
+        {
+          "name": "queryRewriteFromText",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "voiceSearchMode",
+      "flags": [
+        {
+          "name": "showVoiceSearchButton",
+          "value": 1
+        },
+        {
+          "name": "launchWebSearch",
+          "value": 2
+        },
+        {
+          "name": "launchRecognizer",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "menuCategory",
+      "enums": [
+        {
+          "name": "container",
+          "value": 65536
+        },
+        {
+          "name": "system",
+          "value": 131072
+        },
+        {
+          "name": "secondary",
+          "value": 196608
+        },
+        {
+          "name": "alternative",
+          "value": 262144
+        }
+      ]
+    },
+    {
+      "name": "checkableBehavior",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "all",
+          "value": 1
+        },
+        {
+          "name": "single",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "iconTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "alphabeticModifiers",
+      "flags": [
+        {
+          "name": "META",
+          "value": 65536
+        },
+        {
+          "name": "CTRL",
+          "value": 4096
+        },
+        {
+          "name": "ALT",
+          "value": 2
+        },
+        {
+          "name": "SHIFT",
+          "value": 1
+        },
+        {
+          "name": "SYM",
+          "value": 4
+        },
+        {
+          "name": "FUNCTION",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "numericModifiers",
+      "flags": [
+        {
+          "name": "META",
+          "value": 65536
+        },
+        {
+          "name": "CTRL",
+          "value": 4096
+        },
+        {
+          "name": "ALT",
+          "value": 2
+        },
+        {
+          "name": "SHIFT",
+          "value": 1
+        },
+        {
+          "name": "SYM",
+          "value": 4
+        },
+        {
+          "name": "FUNCTION",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "showAsAction",
+      "flags": [
+        {
+          "name": "never",
+          "value": 0
+        },
+        {
+          "name": "ifRoom",
+          "value": 1
+        },
+        {
+          "name": "always",
+          "value": 2
+        },
+        {
+          "name": "withText",
+          "value": 4
+        },
+        {
+          "name": "collapseActionView",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "ringtoneType",
+      "flags": [
+        {
+          "name": "ringtone",
+          "value": 1
+        },
+        {
+          "name": "notification",
+          "value": 2
+        },
+        {
+          "name": "alarm",
+          "value": 4
+        },
+        {
+          "name": "all",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "name": "streamType",
+      "enums": [
+        {
+          "name": "voice",
+          "value": 0
+        },
+        {
+          "name": "system",
+          "value": 1
+        },
+        {
+          "name": "ring",
+          "value": 2
+        },
+        {
+          "name": "music",
+          "value": 3
+        },
+        {
+          "name": "alarm",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "rowEdgeFlags",
+      "flags": [
+        {
+          "name": "top",
+          "value": 4
+        },
+        {
+          "name": "bottom",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "keyEdgeFlags",
+      "flags": [
+        {
+          "name": "left",
+          "value": 1
+        },
+        {
+          "name": "right",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "resizeMode",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "horizontal",
+          "value": 1
+        },
+        {
+          "name": "vertical",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "widgetCategory",
+      "flags": [
+        {
+          "name": "home_screen",
+          "value": 1
+        },
+        {
+          "name": "keyguard",
+          "value": 2
+        },
+        {
+          "name": "searchbox",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "widgetFeatures",
+      "flags": [
+        {
+          "name": "reconfigurable",
+          "value": 1
+        },
+        {
+          "name": "hide_from_picker",
+          "value": 2
+        },
+        {
+          "name": "configuration_optional",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "searchKeyphraseRecognitionFlags",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "voiceTrigger",
+          "value": 1
+        },
+        {
+          "name": "userIdentification",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "navigationMode",
+      "enums": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "listMode",
+          "value": 1
+        },
+        {
+          "name": "tabMode",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "displayOptions",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "useLogo",
+          "value": 1
+        },
+        {
+          "name": "showHome",
+          "value": 2
+        },
+        {
+          "name": "homeAsUp",
+          "value": 4
+        },
+        {
+          "name": "showTitle",
+          "value": 8
+        },
+        {
+          "name": "showCustom",
+          "value": 16
+        },
+        {
+          "name": "disableHome",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "trackTintMode",
+      "enums": [
+        {
+          "name": "src_over",
+          "value": 3
+        },
+        {
+          "name": "src_in",
+          "value": 5
+        },
+        {
+          "name": "src_atop",
+          "value": 9
+        },
+        {
+          "name": "multiply",
+          "value": 14
+        },
+        {
+          "name": "screen",
+          "value": 15
+        },
+        {
+          "name": "add",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "name": "mediaRouteTypes",
+      "enums": [
+        {
+          "name": "liveAudio",
+          "value": 1
+        },
+        {
+          "name": "user",
+          "value": 8388608
+        }
+      ]
+    },
+    {
+      "name": "buttonGravity",
+      "flags": [
+        {
+          "name": "top",
+          "value": 48
+        },
+        {
+          "name": "bottom",
+          "value": 80
+        }
+      ]
+    },
+    {
+      "name": "restrictionType",
+      "enums": [
+        {
+          "name": "hidden",
+          "value": 0
+        },
+        {
+          "name": "bool",
+          "value": 1
+        },
+        {
+          "name": "choice",
+          "value": 2
+        },
+        {
+          "name": "multi-select",
+          "value": 4
+        },
+        {
+          "name": "integer",
+          "value": 5
+        },
+        {
+          "name": "string",
+          "value": 6
+        },
+        {
+          "name": "bundle",
+          "value": 7
+        },
+        {
+          "name": "bundle_array",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "fontStyle",
+      "enums": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "italic",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "viewType",
+      "enums": [
+        {
+          "name": "surfaceView",
+          "value": 0
+        },
+        {
+          "name": "textureView",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "notificationHeaderAppNameVisibility",
+      "enums": [
+        {
+          "name": "visible",
+          "value": 0
+        },
+        {
+          "name": "invisible",
+          "value": 1
+        },
+        {
+          "name": "gone",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "protectionLevel",
+      "flags": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "dangerous",
+          "value": 1
+        },
+        {
+          "name": "signature",
+          "value": 2
+        },
+        {
+          "name": "signatureOrSystem",
+          "value": 3
+        },
+        {
+          "name": "internal",
+          "value": 4
+        },
+        {
+          "name": "privileged",
+          "value": 16
+        },
+        {
+          "name": "system",
+          "value": 16
+        },
+        {
+          "name": "development",
+          "value": 32
+        },
+        {
+          "name": "appop",
+          "value": 64
+        },
+        {
+          "name": "pre23",
+          "value": 128
+        },
+        {
+          "name": "installer",
+          "value": 256
+        },
+        {
+          "name": "verifier",
+          "value": 512
+        },
+        {
+          "name": "preinstalled",
+          "value": 1024
+        },
+        {
+          "name": "setup",
+          "value": 2048
+        },
+        {
+          "name": "instant",
+          "value": 4096
+        },
+        {
+          "name": "runtime",
+          "value": 8192
+        },
+        {
+          "name": "oem",
+          "value": 16384
+        },
+        {
+          "name": "vendorPrivileged",
+          "value": 32768
+        },
+        {
+          "name": "textClassifier",
+          "value": 65536
+        },
+        {
+          "name": "configurator",
+          "value": 524288
+        },
+        {
+          "name": "incidentReportApprover",
+          "value": 1048576
+        },
+        {
+          "name": "appPredictor",
+          "value": 2097152
+        },
+        {
+          "name": "companion",
+          "value": 8388608
+        },
+        {
+          "name": "retailDemo",
+          "value": 16777216
+        },
+        {
+          "name": "recents",
+          "value": 33554432
+        },
+        {
+          "name": "role",
+          "value": 67108864
+        },
+        {
+          "name": "knownSigner",
+          "value": 134217728
+        }
+      ]
+    },
+    {
+      "name": "permissionGroupFlags",
+      "flags": [
+        {
+          "name": "personalInfo",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "permissionFlags",
+      "flags": [
+        {
+          "name": "costsMoney",
+          "value": 1
+        },
+        {
+          "name": "removed",
+          "value": 2
+        },
+        {
+          "name": "hardRestricted",
+          "value": 4
+        },
+        {
+          "name": "softRestricted",
+          "value": 8
+        },
+        {
+          "name": "immutablyRestricted",
+          "value": 16
+        },
+        {
+          "name": "installerExemptIgnored",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "name": "rotationAnimation",
+      "flags": [
+        {
+          "name": "rotate",
+          "value": 0
+        },
+        {
+          "name": "crossfade",
+          "value": 1
+        },
+        {
+          "name": "jumpcut",
+          "value": 2
+        },
+        {
+          "name": "seamless",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "launchMode",
+      "enums": [
+        {
+          "name": "standard",
+          "value": 0
+        },
+        {
+          "name": "singleTop",
+          "value": 1
+        },
+        {
+          "name": "singleTask",
+          "value": 2
+        },
+        {
+          "name": "singleInstance",
+          "value": 3
+        },
+        {
+          "name": "singleInstancePerTask",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "screenOrientation",
+      "enums": [
+        {
+          "name": "unspecified",
+          "value": -1
+        },
+        {
+          "name": "landscape",
+          "value": 0
+        },
+        {
+          "name": "portrait",
+          "value": 1
+        },
+        {
+          "name": "user",
+          "value": 2
+        },
+        {
+          "name": "behind",
+          "value": 3
+        },
+        {
+          "name": "sensor",
+          "value": 4
+        },
+        {
+          "name": "nosensor",
+          "value": 5
+        },
+        {
+          "name": "sensorLandscape",
+          "value": 6
+        },
+        {
+          "name": "sensorPortrait",
+          "value": 7
+        },
+        {
+          "name": "reverseLandscape",
+          "value": 8
+        },
+        {
+          "name": "reversePortrait",
+          "value": 9
+        },
+        {
+          "name": "fullSensor",
+          "value": 10
+        },
+        {
+          "name": "userLandscape",
+          "value": 11
+        },
+        {
+          "name": "userPortrait",
+          "value": 12
+        },
+        {
+          "name": "fullUser",
+          "value": 13
+        },
+        {
+          "name": "locked",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "name": "recreateOnConfigChanges",
+      "flags": [
+        {
+          "name": "mcc",
+          "value": 1
+        },
+        {
+          "name": "mnc",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "configChanges",
+      "flags": [
+        {
+          "name": "mcc",
+          "value": 1
+        },
+        {
+          "name": "mnc",
+          "value": 2
+        },
+        {
+          "name": "locale",
+          "value": 4
+        },
+        {
+          "name": "touchscreen",
+          "value": 8
+        },
+        {
+          "name": "keyboard",
+          "value": 16
+        },
+        {
+          "name": "keyboardHidden",
+          "value": 32
+        },
+        {
+          "name": "navigation",
+          "value": 64
+        },
+        {
+          "name": "orientation",
+          "value": 128
+        },
+        {
+          "name": "screenLayout",
+          "value": 256
+        },
+        {
+          "name": "uiMode",
+          "value": 512
+        },
+        {
+          "name": "screenSize",
+          "value": 1024
+        },
+        {
+          "name": "smallestScreenSize",
+          "value": 2048
+        },
+        {
+          "name": "density",
+          "value": 4096
+        },
+        {
+          "name": "layoutDirection",
+          "value": 8192
+        },
+        {
+          "name": "colorMode",
+          "value": 16384
+        },
+        {
+          "name": "fontScale",
+          "value": 1073741824
+        },
+        {
+          "name": "fontWeightAdjustment",
+          "value": 268435456
+        }
+      ]
+    },
+    {
+      "name": "reqTouchScreen",
+      "enums": [
+        {
+          "name": "undefined",
+          "value": 0
+        },
+        {
+          "name": "notouch",
+          "value": 1
+        },
+        {
+          "name": "stylus",
+          "value": 2
+        },
+        {
+          "name": "finger",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "reqKeyboardType",
+      "enums": [
+        {
+          "name": "undefined",
+          "value": 0
+        },
+        {
+          "name": "nokeys",
+          "value": 1
+        },
+        {
+          "name": "qwerty",
+          "value": 2
+        },
+        {
+          "name": "twelvekey",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "reqNavigation",
+      "enums": [
+        {
+          "name": "undefined",
+          "value": 0
+        },
+        {
+          "name": "nonav",
+          "value": 1
+        },
+        {
+          "name": "dpad",
+          "value": 2
+        },
+        {
+          "name": "trackball",
+          "value": 3
+        },
+        {
+          "name": "wheel",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "name": "installLocation",
+      "enums": [
+        {
+          "name": "auto",
+          "value": 0
+        },
+        {
+          "name": "internalOnly",
+          "value": 1
+        },
+        {
+          "name": "preferExternal",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "uiOptions",
+      "flags": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "splitActionBarWhenNarrow",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "persistableMode",
+      "enums": [
+        {
+          "name": "persistRootOnly",
+          "value": 0
+        },
+        {
+          "name": "persistNever",
+          "value": 1
+        },
+        {
+          "name": "persistAcrossReboots",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "documentLaunchMode",
+      "enums": [
+        {
+          "name": "none",
+          "value": 0
+        },
+        {
+          "name": "intoExisting",
+          "value": 1
+        },
+        {
+          "name": "always",
+          "value": 2
+        },
+        {
+          "name": "never",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "lockTaskMode",
+      "enums": [
+        {
+          "name": "normal",
+          "value": 0
+        },
+        {
+          "name": "never",
+          "value": 1
+        },
+        {
+          "name": "always",
+          "value": 2
+        },
+        {
+          "name": "if_whitelisted",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "name": "foregroundServiceType",
+      "flags": [
+        {
+          "name": "dataSync",
+          "value": 1
+        },
+        {
+          "name": "mediaPlayback",
+          "value": 2
+        },
+        {
+          "name": "phoneCall",
+          "value": 4
+        },
+        {
+          "name": "location",
+          "value": 8
+        },
+        {
+          "name": "connectedDevice",
+          "value": 16
+        },
+        {
+          "name": "mediaProjection",
+          "value": 32
+        },
+        {
+          "name": "camera",
+          "value": 64
+        },
+        {
+          "name": "microphone",
+          "value": 128
+        }
+      ]
+    },
+    {
+      "name": "gwpAsanMode",
+      "enums": [
+        {
+          "name": "default",
+          "value": -1
+        },
+        {
+          "name": "never",
+          "value": 0
+        },
+        {
+          "name": "always",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "memtagMode",
+      "enums": [
+        {
+          "name": "default",
+          "value": -1
+        },
+        {
+          "name": "off",
+          "value": 0
+        },
+        {
+          "name": "async",
+          "value": 1
+        },
+        {
+          "name": "sync",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "appCategory",
+      "enums": [
+        {
+          "name": "game",
+          "value": 0
+        },
+        {
+          "name": "audio",
+          "value": 1
+        },
+        {
+          "name": "video",
+          "value": 2
+        },
+        {
+          "name": "image",
+          "value": 3
+        },
+        {
+          "name": "social",
+          "value": 4
+        },
+        {
+          "name": "news",
+          "value": 5
+        },
+        {
+          "name": "maps",
+          "value": 6
+        },
+        {
+          "name": "productivity",
+          "value": 7
+        },
+        {
+          "name": "accessibility",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "name": "autoRevokePermissions",
+      "enums": [
+        {
+          "name": "allowed",
+          "value": 0
+        },
+        {
+          "name": "discouraged",
+          "value": 1
+        },
+        {
+          "name": "disallowed",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "rollbackDataPolicy",
+      "enums": [
+        {
+          "name": "restore",
+          "value": 0
+        },
+        {
+          "name": "wipe",
+          "value": 1
+        },
+        {
+          "name": "retain",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "usesPermissionFlags",
+      "flags": [
+        {
+          "name": "neverForLocation",
+          "value": 65536
+        }
+      ]
+    },
+    {
+      "name": "colorMode",
+      "enums": [
+        {
+          "name": "default",
+          "value": 0
+        },
+        {
+          "name": "wideColorGamut",
+          "value": 1
+        },
+        {
+          "name": "hdr",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "name": "screenSize",
+      "enums": [
+        {
+          "name": "small",
+          "value": 200
+        },
+        {
+          "name": "normal",
+          "value": 300
+        },
+        {
+          "name": "large",
+          "value": 400
+        },
+        {
+          "name": "xlarge",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "screenDensity",
+      "enums": [
+        {
+          "name": "ldpi",
+          "value": 120
+        },
+        {
+          "name": "mdpi",
+          "value": 160
+        },
+        {
+          "name": "hdpi",
+          "value": 240
+        },
+        {
+          "name": "xhdpi",
+          "value": 320
+        },
+        {
+          "name": "xxhdpi",
+          "value": 480
+        },
+        {
+          "name": "xxxhdpi",
+          "value": 640
+        }
+      ]
+    }
+  ]
+}

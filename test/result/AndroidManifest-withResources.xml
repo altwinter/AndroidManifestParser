@@ -1,0 +1,1088 @@
+<manifest android:versionCode="363004975" android:versionName="230.0.0.20.108" android:installLocation="auto" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.instagram.android" platformBuildVersionCode="31" platformBuildVersionName="12" xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission-sdk-23>
+  <compatible-screens>
+    <screen android:screenSize="small" android:screenDensity="xxxhdpi"></screen>
+    <screen android:screenSize="normal" android:screenDensity="xxxhdpi"></screen>
+    <screen android:screenSize="large" android:screenDensity="xxxhdpi"></screen>
+    <screen android:screenSize="xlarge" android:screenDensity="xxxhdpi"></screen>
+    <screen android:screenSize="small" android:screenDensity="560"></screen>
+    <screen android:screenSize="normal" android:screenDensity="560"></screen>
+    <screen android:screenSize="large" android:screenDensity="560"></screen>
+    <screen android:screenSize="xlarge" android:screenDensity="560"></screen>
+  </compatible-screens>
+  <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="30"></uses-sdk>
+  <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+  <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+  <uses-permission android:name="android.permission.GET_ACCOUNTS"></uses-permission>
+  <uses-permission android:name="android.permission.USE_CREDENTIALS"></uses-permission>
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+  <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE"></uses-permission>
+  <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"></uses-permission>
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"></uses-permission>
+  <uses-permission android:name="android.permission.CAMERA"></uses-permission>
+  <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+  <uses-permission android:name="android.permission.READ_PROFILE"></uses-permission>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+  <uses-permission android:name="android.permission.RECORD_AUDIO"></uses-permission>
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"></uses-permission>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+  <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"></uses-permission>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+  <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"></uses-permission>
+  <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"></uses-permission>
+  <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"></uses-permission>
+  <uses-permission android:name="com.instagram.direct.permission.PROTECTED_DEEPLINKING"></uses-permission>
+  <uses-permission android:name="com.instagram.direct.permission.DIRECT_APP_THREAD_STORE_SERVICE"></uses-permission>
+  <uses-permission android:name="com.facebook.services.identity.FEO2"></uses-permission>
+  <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"></uses-permission>
+  <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"></uses-permission>
+  <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"></uses-permission>
+  <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"></uses-permission>
+  <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"></uses-permission>
+  <uses-permission-sdk-23 android:name="android.permission.UPDATE_APP_BADGE"></uses-permission-sdk-23>
+  <uses-permission-sdk-23 android:name="android.permission.CALL_PHONE"></uses-permission-sdk-23>
+  <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH"></uses-permission-sdk-23>
+  <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission-sdk-23>
+  <uses-permission-sdk-23 android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission-sdk-23>
+  <uses-feature android:name="android.hardware.location.gps" android:required="false"></uses-feature>
+  <uses-feature android:name="android.hardware.location" android:required="false"></uses-feature>
+  <uses-feature android:name="android.hardware.microphone" android:required="false"></uses-feature>
+  <uses-feature android:name="android.hardware.wifi" android:required="false"></uses-feature>
+  <uses-feature android:name="android.hardware.camera" android:required="false"></uses-feature>
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"></uses-feature>
+  <uses-feature android:name="android.hardware.camera.flash" android:required="false"></uses-feature>
+  <uses-feature android:name="android.hardware.camera.front" android:required="false"></uses-feature>
+  <uses-feature android:name="android.hardware.screen.portrait" android:required="false"></uses-feature>
+  <uses-feature android:name="android.hardware.telephony" android:required="false"></uses-feature>
+  <uses-feature android:glEsVersion="0x20000" android:required="true"></uses-feature>
+  <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture"></supports-gl-texture>
+  <permission android:name="com.instagram.android.permission.SYSTEM_ONLY" android:protectionLevel="signatureOrSystem"></permission>
+  <uses-permission android:name="android.permission.REORDER_TASKS"></uses-permission>
+  <permission android:name=".permission.RECEIVE_ADM_MESSAGE" android:protectionLevel="signature"></permission>
+  <uses-permission android:name=".permission.RECEIVE_ADM_MESSAGE"></uses-permission>
+  <uses-permission android:name="com.amazon.device.messaging.permission.RECEIVE"></uses-permission>
+  <queries>
+    <intent>
+      <action android:name="android.media.browse.MediaBrowserService"></action>
+    </intent>
+  </queries>
+  <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"></uses-permission>
+  <uses-permission android:name="com.android.vending.BILLING"></uses-permission>
+  <queries>
+    <package android:name="com.facebook.appmanager"></package>
+    <package android:name="com.facebook.system"></package>
+    <package android:name="com.facebook.services"></package>
+  </queries>
+  <uses-permission android:name="android.permission.MANAGE_OWN_CALLS"></uses-permission>
+  <permission android:name="com.instagram.android.permission.CROSS_PROCESS_BROADCAST_MANAGER" android:protectionLevel="signature"></permission>
+  <uses-permission android:name="com.instagram.android.permission.CROSS_PROCESS_BROADCAST_MANAGER"></uses-permission>
+  <queries>
+    <package android:name="com.google.ar.core"></package>
+  </queries>
+  <uses-permission android:name="android.permission.USE_BIOMETRIC"></uses-permission>
+  <uses-permission android:name="android.permission.USE_FINGERPRINT"></uses-permission>
+  <application android:theme="@style/Theme.Instagram.Splash" android:label="@string/(name removed)" android:icon="@mipmap/icon" android:name="com.instagram.app.InstagramAppShell" android:debuggable="false" android:allowTaskReparenting="true" android:backupAgent="com.instagram.backup.KeyValueBackupAgent" android:allowBackup="true" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true" android:fullBackupOnly="true" android:fullBackupContent="@xml/backup_rules" android:resizeableActivity="false" android:networkSecurityConfig="@xml/fb_network_security_config" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true">
+    <meta-data android:name="com.instagram.android.channel" android:value="playstore"></meta-data>
+    <meta-data android:name="com.google.android.backup.api_key" android:value="unused"></meta-data>
+    <meta-data android:name="com.google.android.ALLOW_PHISHING_DETECTION" android:value="false"></meta-data>
+    <meta-data android:name="com.facebook.build_rule" android:value="instagram_multi_bytecode_dextr_splitarsc_dlstr_zstdso_xxxhdpi_arm64_release_fbsign"></meta-data>
+    <meta-data android:name="com.facebook.package_type" android:value="release"></meta-data>
+    <meta-data android:name="com.facebook.build_time" android:value="1649698698000L"></meta-data>
+    <meta-data android:name="com.facebook.versioncontrol.branch" android:value="master"></meta-data>
+    <meta-data android:name="com.facebook.versioncontrol.revision" android:value="MASTER"></meta-data>
+    <meta-data android:name="com.facebook.build_id" android:value="363352034"></meta-data>
+    <activity android:theme="@style/Base.Theme.Launcher" android:label="@string/(name removed)" android:name="com.instagram.mainactivity.LauncherActivity" android:exported="true" android:clearTaskOnLaunch="false" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:alwaysRetainTaskState="true" android:windowSoftInputMode="adjustNothing">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+    </activity>
+    <activity android:label="@string/(name removed)" android:name="com.instagram.mainactivity.MainActivity" android:exported="true" android:clearTaskOnLaunch="false" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:alwaysRetainTaskState="true" android:windowSoftInputMode="adjustNothing">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+    </activity>
+    <activity-alias android:label="@string/(name removed)" android:name="com.instagram.android.activity.MainTabActivity" android:exported="true" android:clearTaskOnLaunch="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:targetActivity="com.instagram.mainactivity.LauncherActivity" android:alwaysRetainTaskState="true" android:windowSoftInputMode="adjustNothing">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"></action>
+        <category android:name="android.intent.category.LAUNCHER"></category>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <category android:name="android.intent.category.BROWSABLE"></category>
+        <data android:scheme="instagram" android:host="headline_event"></data>
+        <data android:scheme="instagram" android:host="story-camera"></data>
+        <data android:scheme="instagram" android:host="live_camera"></data>
+        <data android:scheme="instagram" android:host="reels-camera"></data>
+        <data android:scheme="instagram" android:host="direct-inbox"></data>
+        <data android:scheme="instagram" android:host="share"></data>
+        <data android:scheme="instagram" android:host="reels_home"></data>
+        <data android:scheme="instagram" android:host="news"></data>
+        <data android:scheme="instagram" android:host="mainfeed"></data>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+      </intent-filter>
+    </activity-alias>
+    <activity android:name="com.instagram.nux.impl.dynamicflow.onboarding.OnboardingActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden"></activity>
+    <activity android:name="com.instagram.osversionblock.OsVersionBlockingActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <activity android:name="com.instagram.share.twitter.TwitterOAuthActivity" android:enabled="false" android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+    <activity android:name="com.instagram.share.tumblr.TumblrAuthActivity" android:enabled="false"></activity>
+    <activity android:name="com.instagram.share.ameba.AmebaAuthActivity" android:enabled="false"></activity>
+    <activity android:name="com.instagram.share.odnoklassniki.OdnoklassnikiAuthActivity" android:enabled="false"></activity>
+    <activity android:name="com.instagram.fbpay.shoppay.IGShopPayCustomTabsActivity" android:exported="false" android:launchMode="singleTask"></activity>
+    <activity android:name="com.facebook.secure.deeplink.GlobalUriHandlerActivity" android:exported="false">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <category android:name="android.intent.category.BROWSABLE"></category>
+        <data android:scheme="instagram" android:host="ecp_checkout"></data>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@style/BrowserRedesign" android:name="com.facebook.browser.lite.BrowserLiteInMainProcessBottomSheetActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:windowSoftInputMode="adjustResize"></activity>
+    <activity android:name="com.instagram.business.instantexperiences.ui.InstantExperiencesBrowserActivity" android:exported="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:windowSoftInputMode="adjustResize"></activity>
+    <service android:name="com.instagram.inappbrowser.service.BrowserLiteCallbackService" android:exported="false">
+      <intent-filter>
+        <action android:name="com.facebook.browser.lite.BrowserLiteCallback"></action>
+      </intent-filter>
+    </service>
+    <service android:name="com.facebook.browser.lite.BrowserLiteIntentService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:process=":browser"></service>
+    <service android:name="com.facebook.browser.lite.BrowserLiteInMainProcessIntentService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.instagram.lazyload.instagram.MainProcessCallbackService" android:exported="false"></service>
+    <service android:name="com.facebook.cameracore.mediapipeline.asyncscripting.AsyncScriptingService" android:enabled="true" android:exported="false" android:process=":AsyncScriptingProcess"></service>
+    <activity android:theme="@style/IgTranslucentWindow" android:name="com.instagram.url.UrlHandlerActivity" android:enabled="false" android:exported="true" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing"></activity>
+    <activity android:theme="@style/Base.Theme.Launcher" android:name="com.instagram.url.UrlHandlerLauncherActivity" android:enabled="false" android:exported="true" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustNothing">
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <category android:name="android.intent.category.BROWSABLE"></category>
+        <data android:scheme="http"></data>
+        <data android:scheme="https"></data>
+        <data android:host="instagram.com"></data>
+        <data android:host="www.instagram.com"></data>
+        <data android:host="applink.instagram.com"></data>
+        <data android:host="familycenter.instagram.com"></data>
+      </intent-filter>
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <category android:name="android.intent.category.BROWSABLE"></category>
+        <data android:scheme="http"></data>
+        <data android:scheme="https"></data>
+        <data android:host="call.instagram.com"></data>
+      </intent-filter>
+      <intent-filter android:autoVerify="true">
+        <action android:name="android.intent.action.VIEW"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <category android:name="android.intent.category.BROWSABLE"></category>
+        <data android:scheme="http"></data>
+        <data android:scheme="https"></data>
+        <data android:host="ig.me"></data>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <category android:name="android.intent.category.BROWSABLE"></category>
+        <data android:scheme="instagram"></data>
+        <data android:host="active_promotions"></data>
+        <data android:host="ads_payments_prepay_payment_status"></data>
+        <data android:host="android"></data>
+        <data android:host="approved_accounts"></data>
+        <data android:host="business_sign_up"></data>
+        <data android:host="business_profile_calling"></data>
+        <data android:host="branded_content"></data>
+        <data android:host="branded_content_deal_creator_payout"></data>
+        <data android:host="branded_content_project"></data>
+        <data android:host="shops_directory"></data>
+        <data android:host="community_content"></data>
+        <data android:host="cowatch"></data>
+        <data android:host="create_room"></data>
+        <data android:host="create_post"></data>
+        <data android:host="suggested_reply"></data>
+        <data android:host="quick_replies"></data>
+        <data android:host="explore"></data>
+        <data android:host="enter_promotion_payment"></data>
+        <data android:host="editprofile"></data>
+        <data android:host="edit_profile_bio"></data>
+        <data android:host="fundraiser"></data>
+        <data android:host="guide"></data>
+        <data android:host="media"></data>
+        <data android:host="acredirect"></data>
+        <data android:host="inter_app/redirect"></data>
+        <data android:host="open_access_application_enrollment"></data>
+        <data android:host="stories"></data>
+        <data android:host="open_access_profile_review_status"></data>
+        <data android:host="product_display_page"></data>
+        <data android:host="professional_sign_up"></data>
+        <data android:host="promote"></data>
+        <data android:host="professional_onboarding_checklist"></data>
+        <data android:host="professional_dashboard"></data>
+        <data android:host="profile"></data>
+        <data android:host="profile_shop"></data>
+        <data android:host="tag"></data>
+        <data android:host="user"></data>
+        <data android:host="fb_friends"></data>
+        <data android:host="fbpay_hub"></data>
+        <data android:host="bloks_native_hybrid_shell"></data>
+        <data android:host="shopping_seller_management_creator_media"></data>
+        <data android:host="products_for_you"></data>
+        <data android:host="reconsideration_products_for_you"></data>
+        <data android:host="recommendations_in_explore_products"></data>
+        <data android:host="payments"></data>
+        <data android:host="shop_pay_did_finish"></data>
+        <data android:host="update_payment"></data>
+        <data android:host="bloks_order_receipt"></data>
+        <data android:host="hub_order_details"></data>
+        <data android:host="orders_hub"></data>
+        <data android:host="business_order"></data>
+        <data android:host="follow_and_invite_friends"></data>
+        <data android:host="ig_payout_hub"></data>
+        <data android:host="ad_topics"></data>
+        <data android:host="insights"></data>
+        <data android:host="tv"></data>
+        <data android:host="igtv_profile"></data>
+        <data android:host="shopping_editorial"></data>
+        <data android:host="settings_payments"></data>
+        <data android:host="settings_theme"></data>
+        <data android:host="settings"></data>
+        <data android:host="ads_pay_now"></data>
+        <data android:host="fbe_app_store"></data>
+        <data android:host="ad_activity"></data>
+        <data android:host="ads_payments"></data>
+        <data android:host="fxim_name_changing_reminder"></data>
+        <data android:host="account_link_auth"></data>
+        <data android:host="smb_select_partner"></data>
+        <data android:host="smb_purchase_options"></data>
+        <data android:host="smb_edit_partner"></data>
+        <data android:host="smsrecovery"></data>
+        <data android:host="voting_info_center"></data>
+        <data android:host="create_shopping_tagged_post"></data>
+        <data android:host="shop_manager_add_products"></data>
+        <data android:host="shop_manager_edit_products"></data>
+        <data android:host="shopping_home"></data>
+        <data android:host="seller_screen_delegator"></data>
+        <data android:host="igtv_revshare_onboarding"></data>
+        <data android:host="user_pay_onboarding"></data>
+        <data android:host="subscriptions_management"></data>
+        <data android:host="affiliate_management"></data>
+        <data android:host="affiliate_checklist"></data>
+        <data android:host="incentive_platform_management"></data>
+        <data android:host="incentive_platform_available_bonus"></data>
+        <data android:host="incentive_platform_progress_tracking"></data>
+        <data android:host="resume_payout_onboarding"></data>
+        <data android:host="igtv_upload"></data>
+        <data android:host="product_composer"></data>
+        <data android:host="product_collection"></data>
+        <data android:host="open_xac"></data>
+        <data android:host="reels"></data>
+        <data android:host="reels_share"></data>
+        <data android:host="reels_effect_page"></data>
+        <data android:host="audio"></data>
+        <data android:host="audio_page"></data>
+        <data android:host="business_spa_hub"></data>
+        <data android:host="calendar_auth_success"></data>
+        <data android:host="calendar_auth_failure"></data>
+        <data android:host="calendar_auth_launch"></data>
+        <data android:host="discounts_interstitial"></data>
+        <data android:host="thread"></data>
+        <data android:host="seller_actions_bloks_app"></data>
+        <data android:host="creator_monetization_contact_support"></data>
+        <data android:host="creator_settings"></data>
+        <data android:host="direct-thread"></data>
+        <data android:host="direct_message_options"></data>
+        <data android:host="shopping_guidance_router"></data>
+        <data android:host="technical_incident"></data>
+        <data android:host="bloks_leave_review"></data>
+        <data android:host="view_lead_details"></data>
+        <data android:host="aradscamera"></data>
+        <data android:host="upload_contacts_settings"></data>
+        <data android:host="extbrowser"></data>
+        <data android:host="ar"></data>
+        <data android:host="embeds_opt_out_setting"></data>
+        <data android:host="avatar_sticker_upsell_bloks_action"></data>
+        <data android:host="map"></data>
+        <data android:host="shopping_creator_shop_management"></data>
+        <data android:host="injected_feed_unit_products"></data>
+        <data android:host="discovery_home"></data>
+        <data android:host="messaging_hub"></data>
+        <data android:host="tyi/mobile"></data>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PICK"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <category android:name="com.facebook.orca.category.PLATFORM_THREAD_20150314"></category>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.instagram.creation.photo.crop.AvatarCropActivity" android:enabled="false" android:screenOrientation="portrait" android:hardwareAccelerated="false"></activity>
+    <activity android:name="com.instagram.tagging.activity.TaggingActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"></activity>
+    <activity android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:name="com.facebook.FacebookActivity" android:enabled="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"></activity>
+    <activity android:name="com.facebook.CustomTabMainActivity" android:enabled="false"></activity>
+    <activity android:name="com.facebook.CustomTabActivity" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <category android:name="android.intent.category.BROWSABLE"></category>
+        <data android:scheme="fbconnect" android:host="cct.com.instagram.android"></data>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.instagram.business.payments.PaymentsWebViewActivity" android:enabled="false" android:screenOrientation="portrait"></activity>
+    <service android:name="com.facebook.fbreact.autoupdater.ighttp.IgHttpUpdateService" android:exported="false"></service>
+    <service android:name="com.facebook.fbreact.autoupdater.ighttp.IgHttpUpdateServiceCompat" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+      <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/ig_http_update_job_ids"></meta-data>
+    </service>
+    <service android:name="com.facebook.fbreact.autoupdater.ighttp.IgHttpUpdateGcmTaskService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:enabled="false" android:exported="true">
+      <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/ig_http_update_job_ids"></meta-data>
+      <intent-filter>
+        <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"></action>
+      </intent-filter>
+    </service>
+    <service android:name="com.instagram.creation.location.NearbyVenuesService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.instagram.util.startup.tracking.TaskLifeDetectingService" android:exported="false" android:stopWithTask="false"></service>
+    <service android:label="NotificationService" android:name="com.facebook.rti.push.service.FbnsService" android:enabled="false" android:exported="true" android:process=":mqtt"></service>
+    <service android:name="com.instagram.direct.notifications.armadillo.service.IgSecureMessageOverWANotificationService" android:exported="false"></service>
+    <meta-data android:name="com.facebook.rti.fbns.FB_SHARED_VERSION" android:value="4"></meta-data>
+    <receiver android:name="com.facebook.rti.push.service.idsharing.FbnsSharingStateReceiver" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="com.facebook.rti.fbns.intent.SHARE_IDS"></action>
+        <action android:name="com.facebook.rti.intent.SHARED_QE_FLAG_REQUEST"></action>
+      </intent-filter>
+    </receiver>
+    <provider android:name="com.instagram.contentprovider.users.impl.IgLoggedInUsersContentProvider" android:enabled="false" android:exported="true" android:authorities="com.instagram.android.contentprovider.users.loggedinusers"></provider>
+    <provider android:name="com.facebook.secure.fileprovider.SecureFileProvider" android:exported="false" android:authorities="com.instagram.android.securefileprovider" android:grantUriPermissions="true">
+      <meta-data android:name="com.facebook.secure.fileprovider.SECURE_FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"></meta-data>
+    </provider>
+    <receiver android:name="com.instagram.api.useragent.LocationChangeReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="android.intent.action.LOCALE_CHANGED"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.instagram.launcherbadges.LauncherBadgesReceiver" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="com.smartisanos.launcher.ready"></action>
+        <action android:name="com.smartisanos.launcher.clear_message"></action>
+      </intent-filter>
+    </receiver>
+    <activity android:name="com.instagram.util.report.ReportWebViewActivity" android:enabled="false" android:screenOrientation="portrait"></activity>
+    <activity android:name="com.instagram.wellbeing.timespent.activity.TimeSpentDashboardActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <activity android:name="com.instagram.wellbeing.limitedprofile.activity.LimitedInteractionsReminderActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <activity android:theme="@style/BrowserFullscreen" android:name="com.instagram.inappbrowser.actions.BrowserActionActivity" android:exported="false" android:windowSoftInputMode="stateHidden"></activity>
+    <activity android:name="com.instagram.payout.activity.PayoutOnboardingFlowActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"></activity>
+    <activity android:theme="@style/BillingProxy" android:name="com.android.billingclient.api.ProxyBillingActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"></activity>
+    <service android:name="com.instagram.contacts.ccu.intf.CCUJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.instagram.contacts.ccu.intf.CCUWorkerService" android:exported="false"></service>
+    <service android:name="com.instagram.lazyload.download.ModuleDownloadJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.instagram.util.offline.BackgroundPrefetchJobServiceCompat" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+      <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/background_prefetch_job_ids"></meta-data>
+    </service>
+    <service android:name="com.instagram.util.offline.BackgroundPrefetchGcmTaskService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:enabled="false" android:exported="true">
+      <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/background_prefetch_job_ids"></meta-data>
+      <intent-filter>
+        <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"></action>
+      </intent-filter>
+    </service>
+    <service android:name="com.instagram.lazyload.download.ModuleDownloadWorkerService" android:exported="false"></service>
+    <service android:name="com.facebook.video.heroplayer.service.MainProcHeroService" android:exported="false">
+      <intent-filter>
+        <action android:name="com.facebook.video.nxplayer.service.HeroPlayerService"></action>
+      </intent-filter>
+    </service>
+    <receiver android:name="com.facebook.oxygen.preloads.sdk.firstparty.settings.TosAcceptedFlag" android:enabled="false" android:exported="false">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+    </receiver>
+    <uses-library android:name="com.google.android.maps" android:required="false"></uses-library>
+    <uses-library android:name="org.apache.http.legacy" android:required="false"></uses-library>
+    <uses-library android:name="androidx.camera.extensions.impl" android:required="false"></uses-library>
+    <provider android:name="com.instagram.contentprovider.CurrentUserProvider" android:enabled="false" android:exported="true" android:authorities="com.instagram.contentprovider.CurrentUserProvider"></provider>
+    <provider android:name="com.instagram.contentprovider.FamilyAppsUserValuesProvider" android:enabled="false" android:exported="true" android:authorities="com.instagram.contentprovider.FamilyAppsUserValuesProvider"></provider>
+    <provider android:name="com.instagram.common.analytics.fdidlite.InstagramFDIDLiteProvider" android:enabled="false" android:exported="true" android:process=":fdidsync" android:authorities="com.instagram.android.provider.phoneid_lite"></provider>
+    <provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.instagram.fileprovider" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"></meta-data>
+    </provider>
+    <meta-data android:name="android.max_aspect" android:value="3"></meta-data>
+    <meta-data android:name="android.supports_size_changes" android:value="true"></meta-data>
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"></meta-data>
+    <meta-data android:name="asset_statements" android:resource="@string/(name removed)"></meta-data>
+    <meta-data android:name="com.facebook.katana.fbpermission.SSO_ACCESS" android:value=""></meta-data>
+    <meta-data android:name="com.instagram.threadsapp.fbpermission.PROVIDER_READ_TOP_THREADS" android:value=""></meta-data>
+    <meta-data android:name="com.instagram.fbpermission.PROVIDER_TRIGGER_REALTIME_KEEPALIVE" android:value=""></meta-data>
+    <meta-data android:name="com.instagram.android.fbpermission.PROVIDER_READ_BACKGROUND_STATE" android:value=""></meta-data>
+    <service android:name="com.facebook.common.dextricks.DexOptimization$Service" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="false" android:process=":optsvc"></service>
+    <service android:name="com.facebook.common.dextricks.DexOptimizationJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="false" android:process=":optsvc"></service>
+    <provider android:name="com.instagram.direct.notifications.contentprovider.AppBackgroundStateContentProvider" android:enabled="false" android:exported="true" android:authorities="com.instagram.android.contentprovider.appbackgroundstate"></provider>
+    <provider android:name="com.instagram.direct.notifications.filters.contentprovider.DirectShouldDisplayNotificationFilterContentProvider" android:enabled="false" android:exported="true" android:authorities="com.instagram.android.contentprovider.direct_should_display_notification"></provider>
+    <meta-data android:name="com.facebook.stella.fbpermission.SEND_ACTION_RESULT" android:value=""></meta-data>
+    <service android:name="com.instagram.direct.stella.StellaDirectMessagingService" android:enabled="false" android:exported="true"></service>
+    <activity android:name="com.instagram.direct.stella.permission.StellaPermissionActivity" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="com.instagram.direct.stella.REQUEST_PERMISSION"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+      </intent-filter>
+    </activity>
+    <provider android:name="com.instagram.realtimeclient.ipc.contentprovider.RealtimeClientKeepAliveContentProvider" android:enabled="false" android:exported="true" android:authorities="com.instagram.android.contentprovider.realtimeclient.keepalive"></provider>
+    <activity android:name="com.instagram.settings.activity.NotificationSettingsHandlerActivity" android:permission="com.instagram.android.permission.SYSTEM_ONLY" android:enabled="false" android:exported="true" android:launchMode="singleTask" android:screenOrientation="portrait">
+      <meta-data android:name="default-state" android:value="@bool/notification_settings_handler_activity_enabled"></meta-data>
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"></action>
+        <category android:name="android.intent.category.NOTIFICATION_PREFERENCES"></category>
+      </intent-filter>
+    </activity>
+    <service android:name="com.instagram.notifications.push.fbns.FbnsPushNotificationHandler" android:exported="false"></service>
+    <receiver android:name="com.instagram.notifications.push.fbns.FbnsPushNotificationHandler$IgFbnsCallbackReceiver" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <category android:name="com.instagram.android"></category>
+        <action android:name="com.facebook.rti.fbns.intent.RECEIVE"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.facebook.nobreak.CrashLoop$LastState" android:exported="false">
+      <meta-data android:name="crash.loop.exclude" android:value="true"></meta-data>
+    </receiver>
+    <receiver android:name="com.instagram.common.analytics.phoneid.InstagramPhoneIdRequestReceiver" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="com.facebook.GET_PHONE_ID"></action>
+      </intent-filter>
+    </receiver>
+    <provider android:name="com.instagram.common.analytics.phoneid.InstagramPhoneIdProvider" android:enabled="false" android:exported="true" android:authorities="com.instagram.android.provider.phoneid"></provider>
+    <activity android:name="com.instagram.debug.devoptions.fbpay.IgECPPlaygroundActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.debug.devoptions.fbpay.IgECPOnsitePlaygroundActivity" android:exported="false"></activity>
+    <service android:name="com.instagram.pendingmedia.service.impl.UploadRetryService" android:exported="false"></service>
+    <receiver android:name="com.instagram.pendingmedia.service.impl.ConnectivityChangeReceiver" android:enabled="false" android:exported="true">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.instagram.pendingmedia.service.impl.UploadRetryService$RetryAlarmBroadcastReceiver" android:exported="false"></receiver>
+    <service android:name="com.instagram.pendingmedia.service.impl.UploadRetryJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.instagram.pendingmedia.service.impl.PendingMediaNotificationService" android:exported="false"></service>
+    <activity android:name="com.instagram.quickpromotion.debug.devtool.QuickPromotionIGInternalSettingsActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.redrawable.IgRedrawableDebugActivity" android:exported="false"></activity>
+    <activity android:theme="@style/SmartCapture.Id" android:name="com.facebook.smartcapture.view.PermissionsActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <activity android:theme="@style/SmartCapture.Id" android:name="com.facebook.smartcapture.view.IdCaptureActivity" android:exported="false" android:screenOrientation="portrait" android:hardwareAccelerated="true"></activity>
+    <activity android:theme="@style/SmartCapture.Id" android:name="com.facebook.smartcapture.view.PhotoReviewActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <receiver android:name="com.facebook.analytics.appstatelogger.AppStateBroadcastReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="android.intent.action.ACTION_SHUTDOWN"></action>
+        <action android:name="android.intent.action.QUICKBOOT_POWEROFF"></action>
+        <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+        <action android:name="android.intent.action.QUICKBOOT_POWERON"></action>
+      </intent-filter>
+    </receiver>
+    <service android:name="com.facebook.analytics.appstatelogger.AppStateIntentService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:process=":fwkstartlog"></service>
+    <receiver android:name="com.instagram.direct.notifications.impl.DirectNotificationActionReceiver" android:exported="false"></receiver>
+    <service android:name="com.instagram.direct.notifications.impl.DirectNotificationActionService" android:exported="false"></service>
+    <service android:name="com.facebook.appcomponentmanager.AppComponentManagerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false" android:process=":pretosproc">
+      <meta-data android:name="coldpretos.whitelisted" android:value="true"></meta-data>
+    </service>
+    <receiver android:name="com.instagram.appcomponentmanager.IgAppComponentReceiver" android:exported="true" android:process=":pretosproc">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+      <intent-filter android:priority="999">
+        <action android:name="android.intent.action.MY_PACKAGE_REPLACED"></action>
+      </intent-filter>
+    </receiver>
+    <activity android:theme="@style/Theme.Instagram" android:name="com.instagram.common.resources.downloadable.impl.WaitingForStringsActivity" android:enabled="false"></activity>
+    <service android:name="com.instagram.notifications.push.GCMJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.instagram.notifications.push.IgPushRegistrationService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <enable-feature android:name="com.amazon.device.messaging" android:required="false" xmlns="http://schemas.amazon.com/apk/res/android"></enable-feature>
+    <service android:name="com.instagram.notifications.push.ADMMessageLegacyHandler" android:exported="false"></service>
+    <service android:name="com.instagram.notifications.push.ADMMessageJobHandler" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <receiver android:name="com.instagram.notifications.push.ADMMessageHandler$Receiver" android:permission="com.amazon.device.messaging.permission.SEND" android:enabled="false" android:exported="true">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="com.amazon.device.messaging.intent.REGISTRATION"></action>
+        <action android:name="com.amazon.device.messaging.intent.RECEIVE"></action>
+        <category android:name="com.instagram.android"></category>
+      </intent-filter>
+    </receiver>
+    <service android:name="com.instagram.notifications.push.BloksNotificationService" android:exported="false"></service>
+    <receiver android:name="com.instagram.notifications.push.ClearNotificationReceiver" android:exported="false"></receiver>
+    <activity android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:name="com.instagram.share.handleractivity.ShareHandlerActivity" android:exported="true" android:taskAffinity="com.instagram.share.handleractivity.ShareHandlerActivity" android:excludeFromRecents="true" android:launchMode="singleInstance">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="image/*"></data>
+        <data android:mimeType="video/*"></data>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.instagram.share.ADD_TO_FEED"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="image/*"></data>
+        <data android:mimeType="video/*"></data>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:name="com.instagram.share.handleractivity.StoryShareHandlerActivity" android:exported="true" android:taskAffinity="com.instagram.share.handleractivity.StoryShareHandlerActivity" android:excludeFromRecents="true" android:launchMode="singleInstance" android:noHistory="true">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="image/*"></data>
+        <data android:mimeType="video/*"></data>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:name="com.instagram.share.handleractivity.MultiStoryShareHandlerActivity" android:exported="true" android:taskAffinity="com.instagram.share.handleractivity.StoryShareHandlerActivity" android:excludeFromRecents="true" android:launchMode="singleInstance" android:noHistory="true">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND_MULTIPLE"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="image/*"></data>
+        <data android:mimeType="video/*"></data>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:name="com.instagram.share.handleractivity.CustomStoryShareHandlerActivity" android:exported="true" android:taskAffinity="com.instagram.share.handleractivity.StoryShareHandlerActivity" android:excludeFromRecents="true" android:launchMode="singleInstance">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+      <intent-filter>
+        <action android:name="com.instagram.share.ADD_TO_STORY"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="image/*"></data>
+        <data android:mimeType="video/*"></data>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.instagram.urlhandler.ActivePromotionsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.AdsPayNowUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.BusinessConversionExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.BusinessProfileCallingUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.BusinessSignUpExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ClipsAudioUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ClipsEffectUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.BrandedContentUrlHandlerActivity" android:exported="false" android:noHistory="true"></activity>
+    <activity android:name="com.instagram.urlhandler.ProfessionalSignUpExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ProfessionalSignupNuxExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ClipsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.CoWatchHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.FxCalIGAccountsCenterRedirectActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.InterAppIdentitySwitchUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:theme="@style/IgTransparentBackground" android:name="com.instagram.urlhandler.RtcEffectUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.CreateRoomUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.CreatePostExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.CreatorMonetizationContactSupportUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.CreatorMonetizationOpenAccessUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.StoriesUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.CreatorSettingsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.CreatorResumeOnboardingUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.DirectExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.DirectMessageOptionsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.DirectQuickReplySettingsUriHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.DirectSuggestedReplySettingsUriHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.EditProfileExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.EditProfileBioExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.EmailConfirmExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ExploreExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.BloksNativeHybridShellUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.FbeAppStoreUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.FollowAndInviteFriendsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.FollowExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.FollowFacebookFriendsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.FundraiserExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.GoogleCalendarSyncUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.FxCalIMNameChangingReminderUrlActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.GuidesExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.IGTVExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.IGTVProfileDeeplinkHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.CreatorOnboardingUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.IgMeExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.InsightsExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.LiveExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.MediaExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.PayoutHubUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.PasswordResetExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.PaymentsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.OrderManagementUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.BloksFormFlowUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ProfessionalOnboardingChecklistExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ProfessionalDashboardExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:theme="@style/IgTransparentBackground" android:name="com.instagram.urlhandler.IgECPUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.UpdatePaymentUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.BloksOrderReceiptUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.BloksHubOrderDetailsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.BloksOrdersHubUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.PromotionPaymentsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.PromoteExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.PromotePaymentStatusUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ProInspirationUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ReelExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.SettingsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.SMSRecoveryUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.SmbSelectPartnerUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.SmbSupportLinkSetupUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.SmbEditPartnerUrlHandlerActivity" android:exported="false" android:windowSoftInputMode="adjustNothing"></activity>
+    <activity android:name="com.instagram.urlhandler.ThemeSettingsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.InfoCenterExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ShoppingSellerScreenDelegatorUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.IGTVUploadUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.XacInterstitialDeeplinkUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.SupportPersonalizedAdsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.SupportPersonalizedAdsStoryStickerUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ServiceShopXMAUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.AttributionUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ConsentActionUrlHandlerActivity" android:exported="false" android:launchMode="singleTask"></activity>
+    <activity android:name="com.instagram.urlhandler.DirectPollMessageUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.InfoCenterFactExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.FbpayReferralXMAUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.MdpInstagramUniversalDeeplinkRedirectionActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.DirectUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:theme="@style/IgTransparentBackground" android:name="com.instagram.urlhandler.DirectGroupInviteHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.MdpInstagramMapHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.SellerActionsBloksAppUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.TwoFacSettingsExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.DirectThreadInternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ViewProfileUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.BloksLeaveReviewUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ViewLeadsForMediaUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.IgMeMessageUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ContactImportSettingsExternalUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.RecentSearchesUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.AdActivityUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.AdTopicsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.AdsPaymentsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.EmbedsOptOutUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.UsageInsightsUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:theme="@style/IgTransparentBackground" android:name="com.instagram.urlhandler.AvatarStickerUpsellBloksActionUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.FamilyCenterUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.ManageSavedLoginUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.GuardianPairingUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.AffiliateUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.MessagingHubUrlHandlerActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.urlhandler.IGFXSettingsTYIRedirectActivity" android:exported="false"></activity>
+    <activity android:theme="@style/SmartCapture.Selfie" android:name="com.facebook.smartcapture.view.SelfieCaptureActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <activity android:theme="@style/SmartCapture.Selfie" android:name="com.facebook.smartcapture.view.SelfieCapturePermissionsActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <activity android:theme="@style/SmartCapture.Selfie" android:name="com.facebook.smartcapture.view.SelfieOnboardingActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <activity android:theme="@style/SmartCapture.Selfie" android:name="com.facebook.smartcapture.view.SelfieReviewActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <activity android:theme="@style/SmartCapture.Selfie" android:name="com.facebook.smartcapture.view.SelfieDataInformationActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <receiver android:name="com.instagram.jobscheduler.SchedulerNetworkChangeReceiver" android:enabled="false" android:exported="false">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.instagram.jobscheduler.SchedulerAlarmBroadcastReceiverV2" android:exported="false"></receiver>
+    <activity android:name="com.instagram.bugreporter.BugReporterActivity" android:enabled="false" android:launchMode="singleTask" android:screenOrientation="portrait"></activity>
+    <service android:name="com.instagram.bugreporter.BugReporterService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <receiver android:name="com.instagram.bugreporter.BugReportUploadFailedNotificationDismissedReceiver" android:exported="false"></receiver>
+    <activity android:name="com.instagram.modal.ModalActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:windowSoftInputMode="adjustNothing"></activity>
+    <activity android:theme="@style/IgTranslucentWindow" android:name="com.instagram.modal.TransparentModalActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing"></activity>
+    <activity android:theme="@style/IgTransparentBackground" android:name="com.instagram.modal.TransparentBackgroundModalActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:windowSoftInputMode="adjustNothing"></activity>
+    <activity android:theme="@style/IgTranslucentWindow" android:name="com.instagram.modal.TransparentOutOfAppPictureInPictureModalActivity" android:exported="false" android:taskAffinity="com.instagram.android.modal.TransparentOutAppPictureInPictureModalActivity" android:excludeFromRecents="true" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing" android:resizeableActivity="true" android:supportsPictureInPicture="true"></activity>
+    <activity android:name="com.instagram.modal.IGTVPictureInPictureModalActivity" android:exported="false" android:taskAffinity="com.instagram.igtv.PictureInPicture" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing" android:resizeableActivity="true" android:supportsPictureInPicture="true"></activity>
+    <receiver android:name="com.instagram.push.InstagramAppUpgradeEventReceiver" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MY_PACKAGE_REPLACED"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.instagram.push.FbnsInitBroadcastReceiver" android:enabled="false" android:exported="true">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="android.intent.action.USER_PRESENT"></action>
+        <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>
+        <action android:name="com.facebook.rti.intent.ACTION_FBNS_STARTED"></action>
+        <action android:name="com.facebook.rti.intent.ACTION_FBNS_STOPPED"></action>
+      </intent-filter>
+    </receiver>
+    <activity android:theme="@style/IgTranslucentWindow" android:name="com.instagram.business.insights.activity.PostInsightsActivity" android:exported="false"></activity>
+    <activity android:name="com.instagram.react.activity.IgReactActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="orientation|screenSize"></activity>
+    <activity android:theme="@style/IgTranslucentWindow" android:name="com.instagram.canvas.CanvasActivity" android:exported="false" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:windowSoftInputMode="adjustResize"></activity>
+    <activity android:name="com.instagram.simplewebview.SimpleWebViewActivity" android:exported="false" android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="com.instagram.android.ACTION_LAUNCH_SIMPLE_WEB_VIEW"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+      </intent-filter>
+    </activity>
+    <service android:name="com.facebook.analytics2.logger.GooglePlayUploadService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:enabled="false" android:exported="true">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"></action>
+      </intent-filter>
+    </service>
+    <activity android:name="com.facebookpay.webview.WebViewActivity" android:exported="false"></activity>
+    <service android:name="com.instagram.prefetch.PrefetchDebugView" android:exported="false" android:stopWithTask="true"></service>
+    <service android:name="com.instagram.publisher.TransactionRevivalJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.instagram.publisher.HeartbeatJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.instagram.publisher.CopypastaUploadRetryService" android:exported="false"></service>
+    <receiver android:name="com.instagram.publisher.CopypastaConnectivityChangeReceiver" android:enabled="false" android:exported="true">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.instagram.publisher.CopypastaUploadRetryService$RetryAlarmBroadcastReceiver" android:exported="false"></receiver>
+    <receiver android:name="com.instagram.util.share.ShareUtil$ChosenComponentReceiver" android:exported="false"></receiver>
+    <activity android:name="com.instagram.business.activity.FbConnectPageActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <activity android:name="com.instagram.business.activity.BusinessAttributeSyncActivity" android:exported="false" android:screenOrientation="portrait"></activity>
+    <activity android:name="com.instagram.business.activity.BusinessConversionActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"></activity>
+    <activity android:name="com.instagram.fxcal.browser.FxChromeCustomTabsActivity" android:exported="false" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+    <meta-data android:name="com.instagram.direct.notifications.routing.supports_new_threads_routing" android:value="true"></meta-data>
+    <receiver android:name="com.facebook.errorreporting.lacrima.detector.broadcast.SecureShutdownBootBroadcastReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="android.intent.action.ACTION_SHUTDOWN"></action>
+        <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.facebook.errorreporting.lacrima.detector.broadcast.LockScreenBroadcastReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="android.intent.action.ACTION_SCREEN_ON"></action>
+        <action android:name="android.intent.action.ACTION_SCREEN_OFF"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.facebook.appcomponentmanager.testreceivers.AppComponentManagerTestingReceiver" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="com.facebook.appcomponentmanager.ACTION_TEST"></action>
+        <action android:name="com.facebook.appcomponentmanager.ACTION_PRINT_COMPONENTS"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.facebook.appcomponentmanager.testreceivers.FirstEnableStageTestReceiver" android:exported="true">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+    </receiver>
+    <receiver android:name="com.facebook.appcomponentmanager.testreceivers.SecondEnableStageTestReceiver" android:enabled="false" android:exported="true">
+      <meta-data android:name="enable-stage" android:value="enable-warm-pretos"></meta-data>
+    </receiver>
+    <activity android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:name="com.instagram.nux.activity.SignedOutFragmentActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+    </activity>
+    <activity android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:name="com.instagram.nux.activity.BloksSignedOutFragmentActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+    </activity>
+    <service android:name="com.facebook.common.errorreporting.memory.service.jobschedulercompat.DumperUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false">
+      <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/job_scheduler_memory_dump_upload"></meta-data>
+    </service>
+    <service android:name="com.facebook.common.errorreporting.memory.service.jobschedulercompat.DumperUploadGcmTaskService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:enabled="false" android:exported="true">
+      <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/job_scheduler_memory_dump_upload"></meta-data>
+      <intent-filter>
+        <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"></action>
+      </intent-filter>
+    </service>
+    <service android:name="com.facebook.common.zopt.ZOptBackgroundService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="false"></service>
+    <receiver android:name="com.instagram.analytics.uploadscheduler.AnalyticsUploadAlarmReceiver" android:exported="false"></receiver>
+    <service android:name="com.instagram.notifications.push.fcm.IgFirebaseMessagingService" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="com.google.firebase.INSTANCE_ID_EVENT"></action>
+      </intent-filter>
+    </service>
+    <service android:name="com.instagram.notifications.push.fcm.FcmListenerService" android:enabled="true" android:exported="false">
+      <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
+      </intent-filter>
+    </service>
+    <service android:name="com.instagram.notifications.push.fcm.GetFCMTokenAndRegisterWithServerGCMService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:enabled="false" android:exported="true">
+      <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/fcm_refresh_push_token_job_service_ids"></meta-data>
+      <intent-filter>
+        <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"></action>
+      </intent-filter>
+    </service>
+    <service android:name="com.instagram.notifications.push.fcm.GetFCMTokenAndRegisterWithServerLollipopService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+      <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/fcm_refresh_push_token_job_service_ids"></meta-data>
+    </service>
+    <service android:name="com.instagram.periodicreporter.SimInfoPeriodicRunnerJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+      <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/sim_info_job_service_ids"></meta-data>
+    </service>
+    <service android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppCacheService" android:exported="false"></service>
+    <service android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppCacheJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <receiver android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppFlag" android:enabled="false" android:exported="false">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppFlag"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IsManagedAppReceiver" android:permission="com.facebook.appmanager.ACCESS" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="com.facebook.oxygen.preloads.sdk.firstparty.managedappcache.IS_MANAGED_APP_CHANGED"></action>
+      </intent-filter>
+    </receiver>
+    <service android:name="androidx.work.impl.background.systemalarm.SystemAlarmService" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <meta-data android:name="default-state" android:value="@bool/enable_system_alarm_service_default"></meta-data>
+    </service>
+    <service android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="false" android:exported="true" android:directBootAware="false">
+      <meta-data android:name="default-state" android:value="@bool/enable_system_job_service_default"></meta-data>
+    </service>
+    <service android:name="androidx.work.impl.foreground.SystemForegroundService" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <meta-data android:name="default-state" android:value="@bool/enable_system_foreground_service_default"></meta-data>
+    </service>
+    <receiver android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" android:enabled="true" android:exported="false" android:directBootAware="false"></receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="android.intent.action.ACTION_POWER_CONNECTED"></action>
+        <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="android.intent.action.BATTERY_OKAY"></action>
+        <action android:name="android.intent.action.BATTERY_LOW"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="android.intent.action.DEVICE_STORAGE_LOW"></action>
+        <action android:name="android.intent.action.DEVICE_STORAGE_OK"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+        <action android:name="android.intent.action.TIME_SET"></action>
+        <action android:name="android.intent.action.TIMEZONE_CHANGED"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver" android:enabled="false" android:exported="false" android:directBootAware="false">
+      <meta-data android:name="default-state" android:value="@bool/enable_system_alarm_service_default"></meta-data>
+      <intent-filter>
+        <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP" android:enabled="false" android:exported="true" android:directBootAware="false">
+      <intent-filter>
+        <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"></action>
+      </intent-filter>
+    </receiver>
+    <activity android:theme="@style/IgTranslucentWindow" android:name="com.instagram.business.promote.activity.PromoteActivity" android:exported="false"></activity>
+    <meta-data android:name="com.facebook.services.fbpermission.FEO2" android:value=""></meta-data>
+    <meta-data android:name="com.facebook.services.fbpermission.FEO2_IMPLICIT_CALLER" android:value=""></meta-data>
+    <meta-data android:name="com.facebook.services.fbpermission.FEO2_READ_DEVICE_COOKIE" android:value=""></meta-data>
+    <activity android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:name="com.instagram.nux.cal.activity.CalActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden"></activity>
+    <meta-data android:name="com.google.android.play.billingclient.version" android:value="3.0.3"></meta-data>
+    <activity android:theme="@style/InstagramTheme.Fullscreen" android:name="com.facebook.fxcropapp.ig.IgCropActivity" android:exported="false"></activity>
+    <activity android:theme="@style/IgTranslucentWindow" android:name="com.instagram.leadads.activity.LeadAdsActivity" android:exported="false" android:launchMode="singleTask" android:configChanges="orientation|screenLayout|screenSize" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize"></activity>
+    <meta-data android:name="com.facebook.stella.fbpermission.SEND_EVENT" android:value=""></meta-data>
+    <receiver android:name="com.instagram.notifications.actions.NotificationActionReceiver" android:enabled="true" android:exported="false"></receiver>
+    <service android:name="com.instagram.notifications.actions.ActionHandlerIntentService" android:exported="false"></service>
+    <receiver android:name="com.instagram.registrationpush.RegistrationPushAlarmReceiver" android:exported="false"></receiver>
+    <receiver android:name="com.instagram.registrationpush.RegistrationPushActionReceiver" android:exported="false"></receiver>
+    <service android:name="com.instagram.util.offline.BackgroundPrefetchWorkerService" android:exported="false"></service>
+    <service android:name="com.instagram.util.offline.BackgroundPrefetchJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.instagram.gallery.scanner.MediaScannerJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.instagram.gallery.scanner.MediaScannerWorkerService" android:exported="false"></service>
+    <activity android:theme="@01030010" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true"></activity>
+    <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:enabled="false" android:exported="true" android:visibleToInstantApps="true"></service>
+    <service android:name="com.facebook.analytics2.logger.LollipopUploadService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="com.facebook.analytics2.logger.AlarmBasedUploadService" android:exported="false"></service>
+    <receiver android:name="com.facebook.analytics2.logger.HighPriUploadRetryReceiver" android:exported="false"></receiver>
+    <provider android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" android:exported="false" android:multiprocess="true" android:authorities="com.instagram.android.lifecycle-process"></provider>
+    <activity android:theme="@style/InstagramTheme.Fullscreen" android:name="com.instagram.challenge.activity.ChallengeActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboardHidden" android:windowSoftInputMode="stateHidden"></activity>
+    <activity android:theme="@style/InstagramTheme.Fullscreen" android:name="com.instagram.creation.activity.MediaCaptureActivity" android:screenOrientation="portrait">
+      <meta-data android:name="enable-stage" android:value="enable-cold-pretos"></meta-data>
+    </activity>
+    <activity android:theme="@style/IgTranslucentWindow" android:name="com.instagram.igtv.uploadflow.IGTVUploadActivity" android:exported="false" android:configChanges="orientation|screenLayout|screenSize" android:windowSoftInputMode="adjustResize"></activity>
+    <activity android:name="com.instagram.platform.AppAuthorizeActivity" android:enabled="false" android:exported="true" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize" android:windowAnimationStyle="@00000000" android:windowDisablePreview="true">
+      <meta-data android:name="instantapps.clients.allowed" android:value="true"></meta-data>
+    </activity>
+    <service android:name="com.instagram.rtc.connectionservice.RtcConnectionService" android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" android:exported="false">
+      <intent-filter>
+        <action android:name="android.telecom.ConnectionService"></action>
+      </intent-filter>
+    </service>
+    <service android:name="com.instagram.rtc.service.RtcCallService" android:exported="false"></service>
+    <service android:name="com.instagram.rtc.service.OngoingCallService" android:exported="false" android:foregroundServiceType="phoneCall"></service>
+    <activity android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:name="com.instagram.direct.share.handler.DirectShareHandlerActivity" android:enabled="false" android:exported="true" android:taskAffinity="com.instagram.android.DirectShareHandlerActivity" android:excludeFromRecents="true" android:launchMode="singleInstance" android:screenOrientation="portrait">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="text/plain"></data>
+      </intent-filter>
+      <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.instagram.direct.share.choosertarget.DirectChooserTargetService"></meta-data>
+    </activity>
+    <activity-alias android:name="com.instagram.direct.share.handler.DirectShareHandlerActivityInterop" android:enabled="false" android:exported="true" android:targetActivity="com.instagram.direct.share.handler.DirectShareHandlerActivity">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="text/plain"></data>
+      </intent-filter>
+      <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.instagram.direct.share.choosertarget.DirectChooserTargetService"></meta-data>
+    </activity-alias>
+    <activity android:name="com.instagram.direct.share.handler.DirectExternalMediaShareActivity" android:enabled="false" android:exported="true" android:taskAffinity="com.instagram.android.DirectExternalPhotoShareActivity" android:excludeFromRecents="true" android:launchMode="singleInstance" android:screenOrientation="portrait"></activity>
+    <activity-alias android:name="com.instagram.direct.share.handler.DirectExternalMediaShareActivityPhoto" android:enabled="false" android:exported="true" android:targetActivity="com.instagram.direct.share.handler.DirectExternalMediaShareActivity">
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="image/*"></data>
+      </intent-filter>
+      <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.instagram.direct.share.choosertarget.DirectChooserTargetService"></meta-data>
+    </activity-alias>
+    <activity-alias android:name="com.instagram.direct.share.handler.DirectExternalMediaShareActivityPhotoInterop" android:enabled="false" android:exported="true" android:targetActivity="com.instagram.direct.share.handler.DirectExternalMediaShareActivity">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="image/*"></data>
+      </intent-filter>
+      <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.instagram.direct.share.choosertarget.DirectChooserTargetService"></meta-data>
+    </activity-alias>
+    <activity-alias android:name="com.instagram.direct.share.handler.DirectExternalMediaShareActivityVideo" android:enabled="false" android:exported="true" android:targetActivity="com.instagram.direct.share.handler.DirectExternalMediaShareActivity">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="video/*"></data>
+      </intent-filter>
+      <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.instagram.direct.share.choosertarget.DirectChooserTargetService"></meta-data>
+    </activity-alias>
+    <activity-alias android:name="com.instagram.direct.share.handler.DirectExternalMediaShareActivityVideoInterop" android:enabled="false" android:exported="true" android:targetActivity="com.instagram.direct.share.handler.DirectExternalMediaShareActivity">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="video/*"></data>
+      </intent-filter>
+      <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.instagram.direct.share.choosertarget.DirectChooserTargetService"></meta-data>
+    </activity-alias>
+    <activity android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" android:name="com.instagram.direct.share.handler.DirectMultipleExternalMediaShareActivity" android:enabled="false" android:exported="true" android:excludeFromRecents="true" android:launchMode="singleInstance" android:screenOrientation="portrait">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND_MULTIPLE"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="image/*"></data>
+        <data android:mimeType="video/*"></data>
+      </intent-filter>
+      <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.instagram.direct.share.choosertarget.DirectChooserTargetService"></meta-data>
+    </activity>
+    <activity-alias android:name="com.instagram.direct.share.handler.DirectMultipleExternalMediaShareActivityInterop" android:enabled="false" android:exported="true" android:targetActivity="com.instagram.direct.share.handler.DirectMultipleExternalMediaShareActivity">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter android:label="@string/(name removed)">
+        <action android:name="android.intent.action.SEND_MULTIPLE"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+        <data android:mimeType="image/*"></data>
+        <data android:mimeType="video/*"></data>
+      </intent-filter>
+      <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.instagram.direct.share.choosertarget.DirectChooserTargetService"></meta-data>
+    </activity-alias>
+    <service android:label="@string/(name removed)" android:name="com.instagram.direct.share.choosertarget.DirectChooserTargetService" android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="android.service.chooser.ChooserTargetService"></action>
+      </intent-filter>
+    </service>
+    <service android:name="com.facebook.voltron.scheduler.AppModuleDownloadJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false">
+      <meta-data android:name="com.facebook.common.jobscheduler.compat.jobIds" android:resource="@array/jobscheduler_app_module_download_ids"></meta-data>
+    </service>
+    <service android:name="com.facebook.voltron.scheduler.AppModuleAlarmBasedDownloader" android:exported="false"></service>
+    <service android:name="com.facebook.video.heroplayer.remotecodec.service.CodecService" android:enabled="true" android:exported="false" android:process=":remotecodec">
+      <intent-filter>
+        <action android:name="com.facebook.video.heroplayer.remotecodec.service.CodecService"></action>
+      </intent-filter>
+    </service>
+    <meta-data android:name="com.google.ar.core" android:value="optional"></meta-data>
+    <service android:name="com.instagram.notifications.local.LocalNotificationFetchInventoryJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <receiver android:name="com.instagram.notifications.local.LocalNotificationAlarmReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="com.instagram.android.LOCAL_NOTIFICATION_EVENT"></action>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.instagram.notifications.local.LocalNotificationBootReceiver" android:exported="false">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+      </intent-filter>
+    </receiver>
+    <service android:name="com.instagram.util.startup.mediaingestion.MediaIngestionJob" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"></service>
+    <service android:name="androidx.room.MultiInstanceInvalidationService" android:exported="false" android:directBootAware="true"></service>
+    <activity android:theme="@01030010" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"></activity>
+    <activity android:theme="@style/Theme.Instagram" android:name="com.instagram.igtv.destination.activity.IGTVDestinationActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:windowSoftInputMode="adjustNothing"></activity>
+    <activity android:theme="@style/IgTranslucentWindow" android:name="com.instagram.igtv.camera.IGTVCameraActivity" android:exported="false" android:configChanges="orientation|screenLayout|screenSize" android:windowSoftInputMode="adjustNothing"></activity>
+    <activity android:theme="@style/CallTheme" android:label="@string/(name removed)" android:name="com.instagram.rtc.activity.RtcCallActivity" android:exported="false" android:taskAffinity="com.instagram.android.RtcCallActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden" android:showOnLockScreen="true" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:showWhenLocked="true" android:turnScreenOn="true"></activity>
+    <activity android:theme="@style/CallHandlerTheme" android:name="com.instagram.rtc.activity.RtcCallIntentHandlerActivity" android:exported="false" android:taskAffinity="com.instagram.android.RtcCallIntentHandlerActivity" android:excludeFromRecents="true" android:launchMode="singleInstance" android:configChanges="keyboardHidden|orientation|screenSize" android:noHistory="true" android:showWhenLocked="true" android:turnScreenOn="true"></activity>
+    <activity android:theme="@style/CallTheme" android:label="@string/(name removed)" android:name="com.instagram.rtc.activity.ClipsTogetherActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden" android:showOnLockScreen="true" android:resizeableActivity="true" android:supportsPictureInPicture="true" android:showWhenLocked="true" android:turnScreenOn="true"></activity>
+    <service android:name="com.instagram.rtc.notifications.service.RtcCallActionIntentHandlerService" android:exported="false"></service>
+    <service android:name="com.google.firebase.messaging.FirebaseMessagingService" android:exported="false">
+      <intent-filter android:priority="-500">
+        <action android:name="com.google.firebase.MESSAGING_EVENT"></action>
+      </intent-filter>
+    </service>
+    <activity android:theme="@style/Theme.W3C.BottomSheet" android:name="com.instagram.fbpay.w3c.views.DemaskCardActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize"></activity>
+    <activity android:theme="@style/Theme.Instagram" android:name="com.instagram.fbpay.w3c.views.PaymentMethodsActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize">
+      <intent-filter>
+        <action android:name="com.fbpay.w3c.PAYMENT_METHODS_SETTINGS"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@style/Theme.W3C.BottomSheet" android:name="com.instagram.fbpay.w3c.views.PaymentActivity" android:enabled="false" android:exported="true">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="org.chromium.intent.action.PAY"></action>
+      </intent-filter>
+      <meta-data android:name="org.chromium.default_payment_method_name" android:value="https://www.facebook.com/pay"></meta-data>
+      <meta-data android:name="org.chromium.payment_method_names" android:resource="@array/facebook_payment_methods"></meta-data>
+    </activity>
+    <service android:name="com.instagram.fbpay.w3c.ipc.IsReadyToPayServiceImpl" android:enabled="false" android:exported="true">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="org.chromium.intent.action.IS_READY_TO_PAY"></action>
+      </intent-filter>
+    </service>
+    <service android:name="com.instagram.fbpay.w3c.ipc.FBPaymentServiceImpl" android:enabled="false" android:exported="false">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="com.fbpay.w3c.FB_EXTENSIONS"></action>
+      </intent-filter>
+    </service>
+    <activity android:theme="@01030005" android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"></action>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@01030005" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"></action>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@0103000b" android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"></action>
+      </intent-filter>
+    </activity>
+    <meta-data android:name="com.google.ar.core.min_apk_version" android:value="212430000"></meta-data>
+    <service android:name="com.google.firebase.components.ComponentDiscoveryService" android:exported="false" android:directBootAware="true">
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"></meta-data>
+      <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"></meta-data>
+    </service>
+    <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:enabled="false" android:exported="true">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE"></action>
+      </intent-filter>
+    </receiver>
+    <activity-alias android:name="com.facebook.secure.packagefinder.PackageFinderActivity" android:enabled="false" android:exported="true" android:targetActivity="com.instagram.mainactivity.LauncherActivity">
+      <meta-data android:name="default-state" android:value="false"></meta-data>
+      <intent-filter>
+        <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"></action>
+        <category android:name="android.intent.category.DEFAULT"></category>
+      </intent-filter>
+    </activity-alias>
+  </application>
+  <queries>
+    <intent>
+      <action android:name="android.intent.action.VIEW"></action>
+      <data android:scheme="*"></data>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.MAIN"></action>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.SENDTO"></action>
+      <data android:scheme="mailto"></data>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.DIAL"></action>
+      <data android:scheme="tel"></data>
+    </intent>
+    <intent>
+      <action android:name="android.intent.action.CALL"></action>
+      <data android:scheme="tel"></data>
+    </intent>
+    <intent>
+      <action android:name="com.facebook.secure.packagefinder.intent.ACTION_QUERY_PACKAGES"></action>
+    </intent>
+    <intent>
+      <action android:name="com.facebook.GET_PHONE_ID"></action>
+    </intent>
+    <intent>
+      <action android:name="com.facebook.GET_UNIQUE_ID"></action>
+    </intent>
+  </queries>
+</manifest>
