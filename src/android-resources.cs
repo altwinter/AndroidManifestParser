@@ -1,7 +1,15 @@
 using System.Diagnostics;
 
+/// <summary>
+/// Android resources Class retrived from aapt2 application
+/// </summary>
 public class AndroidResources
 {
+
+    /// <summary>
+    /// Android resources extraction
+    /// </summary>
+    /// <param name="pathApk">The <see cref="string"/> path to the target Apk.</param>
     public AndroidResources(string pathApk)
     {
         _resources = new Dictionary<int, string>();
@@ -44,6 +52,11 @@ public class AndroidResources
         }
     }
 
+    /// <summary>
+    /// Get the <see cref="string"/> value of a resource Id
+    /// </summary>
+    /// <param name="keyString">The Key id value as a <see cref="string"/> representation.</param>
+    /// <returns>The <see cref="string"/> value attach corresponding to the key Id.</returns>
     public string? Get(string keyString)
     {
         int keyInt = Convert.ToInt32("0x" + keyString.Substring(1), 16);
@@ -54,5 +67,8 @@ public class AndroidResources
         return result;
     }
 
+    /// <summary>
+    /// Dictionary of resources with <<see cref="int"/> -id, <see cref="string"/> -value>
+    /// </summary>
     private readonly Dictionary<int, string> _resources;
 }
